@@ -1,8 +1,10 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Advanced Physical Chemistry
+description: A collection of course notes created by Fall 2025 CH730 (Advanced Physical Chemistry) students at NCSU.
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
+
+enable_math: true
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
