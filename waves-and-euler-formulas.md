@@ -4,13 +4,13 @@ layout: default
 ---
 
 # Waves & Euler Formulas
-Wave functions are typically denoted by the Greek letter psi $\psi$ and are made up of a spatial frequency variable $k$ and a variable that represents 1-dimensional space $x$.
+Wave functions are typically denoted by the Greek letter psi $$\psi$$ and are made up of a spatial frequency variable $$k$$ and a variable that represents 1-dimensional space $$x$$.
 
-### Consider the function for a sine wave $\psi_{1}$
+### Consider the function for a sine wave $$\psi_{1}$$
 > $$\psi_{1} = sin(kx)$$
-> For $k=1$, the plot of $\psi_{1}$ from $x[0,2\pi]$ looks like \
+> For $$k=1$$, the plot of $$\psi_{1}$$ from $$x[0,2\pi]$$ looks like \
 > ![Plot 1](images/waves-and-euler-formulas-1.jpg) \
-> A higher value of $k$ (say $k=3$) changes the plot of $\psi_{1}$ as such \
+> A higher value of $$k$$ (say $$k=3$$) changes the plot of $$\psi_{1}$$ as such \
 > ![Plot 2](images/waves-and-euler-formulas-2.jpg)
 
 ---
