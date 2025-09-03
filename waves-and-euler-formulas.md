@@ -8,7 +8,7 @@ Wave functions are typically denoted by the Greek letter psi $$\psi$$ and are ma
 
 ## Consider the function for a sine wave $$\psi_{1}$$
 > 
-> $$\psi_{1} = sin(kx)$$ \
+> $$\psi_{1} = sin(kx)$$ 
 > 
 > For $$k=1$$, the plot of $$\psi_{1}$$ from $$x[0,2\pi]$$ looks like \
 > ![Plot 1](images/waves-and-euler-formulas-1.jpg) \
