@@ -41,4 +41,4 @@ $$\begin{align}
 
 ---
 
-Page Author: *Reagan McNeill Womack*
+*Page Author: Reagan McNeill Womack*
