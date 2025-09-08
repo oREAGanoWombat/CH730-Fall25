@@ -1,6 +1,7 @@
 ---
 title: One-Dimensional Particle in a Box
 layout: default
+nav-exclude: true
 ---
 
 # One-Dimensional Particle in a Box
@@ -138,4 +139,5 @@ N &=\sqrt{\frac{2}{L}}
 Substituting this into the PIB wavefunction yields the solutions to the 1D PIB Schrödiner equation:
 
 $$\psi(x)=\sqrt{\frac{2}{L}}\sin(\frac{n\pi x}{L}) \hspace{1cm} n \in \Z^{+}$$
+
 
