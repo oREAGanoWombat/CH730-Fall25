@@ -9,15 +9,15 @@ The Particle in a Box (PIB) is the simplest of the quantum mechanical models we 
 ## Creating the Model
 We begin by simply drawing a box: 
 
-<center><img src="images/PIB_1.jpg"></center>
+<p align="center"><img src="images/PIB_1.jpg"></p>
 
 The first condition we impose on the box is that the potential energy, V, outside of the box is infinite and the potential energy inside of the box is zero; these can be thought of as walls of potential energy. We can represent this in our box: 
 
-<center><img src="images/PIB_2.jpg"></center>
+<p align="center"><img src="images/PIB_2.jpg"></p>
 
 Next, we will define our box to be along the x-axis, such that the left wall is the position x=0 and the right wall is the position x=L; where L is the length of the box. 
 
-<center><img src="images/PIB_3.jpg"></center>
+<p align="center"><img src="images/PIB_3.jpg"></p>
 
 Now we will impose boundary conditions on our box. Boundary conditions, in this case, describe the behavior of a wavefunction at the two “boundaries” of the box. We have seen previously that the wavefunction describes the probability of finding the particle at a given position. Since we want our particle to be inside of the box, hence the name Particle in a Box, we impose the condition that there is no probability of finding the particle outside of the box. Also, we have seen the wavefunction must be differentiable to satisfy the Schrödinger Equation. Combining both of these requirements, we have the following boundary conditions: 
 
@@ -78,7 +78,7 @@ $$\begin{align}
 
 So the difference between two consecutive energy levels increases with n. We can visualize this by co-plotting the first three energy levels’ respective wavefunctions and calculating their approximate energy differences inside of our box: 
 
-<center><img src="images/PIB_4.jpg"></center>
+<p align="center"><img src="images/PIB_4.jpg"></p>
 
 $$\begin{align}
 \Delta E_{2-1} &= \frac{h^{2}}{8ml^{2}}(2^{2}-1^{2}) \\
@@ -92,7 +92,7 @@ Co-plotting these wavefunctions also highlights an interesting property of PIB w
 
 Finally, we can look at the probability density of these first three wavefunctions by taking their square modulus:
 
-<center><img src="images/PIB_5.jpg"></center>
+<p align="center"><img src="images/PIB_5.jpg"></p>
 
 Here we can clearly see the nodes of the wavefunction. A wavefunction’s node is a position where the wavefunction changes sign and its probability density is equal to zero at these points. We can also construct a formula to quickly find the number of nodes that a given PIB wavefunction will have:
 
@@ -138,3 +138,4 @@ N &=\sqrt{\frac{2}{L}}
 Substituting this into the PIB wavefunction yields the solutions to the 1D PIB Schrödiner equation:
 
 $$\psi(x)=\sqrt{\frac{2}{L}}\sin(\frac{n\pi x}{L}) \hspace{1cm} n \in \Z^{+}$$
+
