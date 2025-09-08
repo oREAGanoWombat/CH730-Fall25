@@ -1,6 +1,7 @@
 ---
 title: Waves & Euler Formulas
 layout: default
+author: Reagan McNeill Womack
 ---
 
 # Waves & Euler Formulas
@@ -41,4 +42,4 @@ $$\begin{align}
 
 ---
 
-*Page Author: Reagan McNeill Womack*
+*Page Author: {{ page.author }}*
