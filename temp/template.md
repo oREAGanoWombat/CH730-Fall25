@@ -1,6 +1,7 @@
 ---
 title: Template File
 layout: default
+author: Your Name Here
 nav_exclude: true # excludes file from navigation
 ---
 
@@ -15,3 +16,7 @@ This is some text
 $$Isolated \ math \ looks \ like \ this \ y=2x^{2}$$
 
 In-line math looks like this $$y=2x^{2}$$.
+
+---
+
+*Page Author: {{ page.author }}*
