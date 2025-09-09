@@ -39,8 +39,8 @@ Where A is some arbitrary amplitude and k is the spatial frequency. The first bo
 $$\begin{align}
 \psi(x)|_{x=L}=A&\sin(kl)=0 \\
 \sin(kL)&=0 \\
-kL=n\pi \hspace{0.5cm} & \hspace{0.5cm} n \in \Z^+ \\
-k=\frac{n\pi}{L} \hspace{0.5cm} & \hspace{0.5cm} n \in \Z^+ 
+kL=n\pi \hspace{0.5cm} & \hspace{0.5cm} n \in \mathbb{Z}^+ \\
+k=\frac{n\pi}{L} \hspace{0.5cm} & \hspace{0.5cm} n \in \mathbb{Z}^+ 
 \end{align}$$
 
 This is notably the **most important** result of the Particle in a Box exercise. Here we see that only discrete spatial frequencies, which “fit” inside of the box, are allowed. In quantum mechanics this is called quantization and, as we have seen here, it is a direct result of boundary conditions.
@@ -49,7 +49,7 @@ We can substitute the result for $k$ into our general PIB wavefunction:
 
 $$\begin{align}
 \psi(x) & =A\sin(kx) \\
- & =A\sin(\frac{n\pi x}{L}) \hspace{1cm} n \in \Z^+
+ & =A\sin(\frac{n\pi x}{L}) \hspace{1cm} n \in \mathbb{Z}^+
 \end{align}$$
 
 Since n is the variable which quantizes the wavefunction,  we refer to it as a quantum number for this system. 
@@ -65,17 +65,17 @@ E=\frac{\hbar^{2}k^{2}}{2m}
 Where  is the reduced Planck’s constant, k is the spatial frequency of the wavefunction, and m is the mass of the particle. Substituting the PIB spatial frequency yields:
 
 $$\begin{align}
-E_{n} & = \frac{\hbar^{2}(\frac{n\pi}{L})^{2}}{2m}  \hspace{3cm}&n \in \Z^+\\
-&= \frac{h^{2}n^{2}\pi^{2}}{(2\pi)^{2}(2m)(L^{2})}  &n \in \Z^+\\
-&= \frac{h^{2}n^{2}}{8mL^{2}}  &n \in \Z^+
+E_{n} & = \frac{\hbar^{2}(\frac{n\pi}{L})^{2}}{2m}  \hspace{3cm}&n \in \mathbb{Z}^+\\
+&= \frac{h^{2}n^{2}\pi^{2}}{(2\pi)^{2}(2m)(L^{2})}  &n \in \mathbb{Z}^+\\
+&= \frac{h^{2}n^{2}}{8mL^{2}}  &n \in \mathbb{Z}^+
 \end{align}$$
 
-Here the energy of the particle is proportional to the square of its quantum number, n. The mathematical significance of this can be seen by looking at the energy difference between two consecutive energy levels, $n_{1}$ and $n_{2}$:
+Here the energy of the particle is proportional to the square of its quantum number, n. The mathematical significance of this can be seen by looking at the energy difference between two consecutive energy levels, $$n_{1}$$ and $$n_{2}$$:
 
 $$\begin{align}
-\Delta E_{n_{2}-n_{1}} &=E_{n_{2}}-E_{n_{1}} \hspace{3cm}&n \in \Z^+ \hspace{5mm}&n_{2}>n_{1}\\
-&= \frac{h^{2}n^{2}_{2}}{8mL^{2}} - \frac{h^{2}n^{2}_{1}}{8mL^{2}} &n \in \Z^+ \hspace{5mm}&n_{2}>n_{1}\\
-&= \frac{h^{2}}{8mL^{2}}(n^{2}_{2}-n^{2}_{1}) &n \in \Z^+ \hspace{5mm}&n_{2}>n_{1}
+\Delta E_{n_{2}-n_{1}} &=E_{n_{2}}-E_{n_{1}} \hspace{3cm}&n \in \mathbb{Z}^+ \hspace{5mm}&n_{2}>n_{1}\\
+&= \frac{h^{2}n^{2}_{2}}{8mL^{2}} - \frac{h^{2}n^{2}_{1}}{8mL^{2}} &n \in \mathbb{Z}^+ \hspace{5mm}&n_{2}>n_{1}\\
+&= \frac{h^{2}}{8mL^{2}}(n^{2}_{2}-n^{2}_{1}) &n \in \mathbb{Z}^+ \hspace{5mm}&n_{2}>n_{1}
 \end{align}$$
 
 So the difference between two consecutive energy levels increases with n. We can visualize this by co-plotting the first three energy levels’ respective wavefunctions and calculating their approximate energy differences inside of our box: 
@@ -90,7 +90,7 @@ $$\begin{align}
 &= \frac{5h^{2}}{8ml^{2}} \\
 \end{align}$$
 
-Co-plotting these wavefunctions also highlights an interesting property of PIB wavefunctions. For odd n’s, the wavefunctions are symmetric about $\frac{L}{2}$. For even n’s, the wavefunctions are antisymmetric about $\frac{L}{2}$. 
+Co-plotting these wavefunctions also highlights an interesting property of PIB wavefunctions. For odd n’s, the wavefunctions are symmetric about $$\frac{L}{2}$$. For even n’s, the wavefunctions are antisymmetric about $$\frac{L}{2}$$. 
 
 Finally, we can look at the probability density of these first three wavefunctions by taking their square modulus:
 
@@ -139,11 +139,12 @@ N &=\sqrt{\frac{2}{L}}
 
 Substituting this into the PIB wavefunction yields the solutions to the 1D PIB Schrödiner equation:
 
-$$\psi(x)=\sqrt{\frac{2}{L}}\sin(\frac{n\pi x}{L}) \hspace{1cm} n \in \Z^{+}$$
+$$\psi(x)=\sqrt{\frac{2}{L}}\sin(\frac{n\pi x}{L}) \hspace{1cm} n \in \mathbb{Z}^{+}$$
 
 ---
 
 *Page Author: {{ page.author }}*
+
 
 
 
