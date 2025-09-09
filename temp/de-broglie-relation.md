@@ -23,9 +23,9 @@ $$p = \frac{h}{\lambda}$$
 > $$c = \frac{\lambda}{t_{2\pi}}$$
 > 
 > If frequency $$\nu$$ is the inverse of time $$t$$
-> >
-> > $$\nu=\frac{1}{t_{2\pi}} \Rightarrow \frac{1}{\nu}=t_{2\pi}$$
-> >
+>
+> $$\nu=\frac{1}{t_{2\pi}} \Rightarrow \frac{1}{\nu}=t_{2\pi}$$
+>
 > Then we can write the speed of light $$c$$ in terms of wavelength $$\lambda$$ and frequency $$\nu$$
 > 
 > $$c=\frac{\lambda}{1/\nu} \Rightarrow c=\lambda \cdot \nu$$
@@ -49,6 +49,7 @@ $$E=h \left( \frac{c}{\lambda} \right) = mc^{2} \Rightarrow mc = \frac{h}{\lambd
 
 $$p=\frac{h}{\lambda}$$
 
+{: .highlight }
 > This relation only becomes meaningful for very small objects (such as particles) as it breaks classical mechanics. Wavelengths of tangible objects are so small that they aren't relevant to consider when determining momentum.
 
 ---
