@@ -2,6 +2,7 @@
 title: de Broglie Relation
 layout: default
 author: Reagan McNeill Womack
+nav_exclude: true
 ---
 
 # de Broglie Relation
