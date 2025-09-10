@@ -1,13 +1,12 @@
 ---
 title: Time-Independent Schrodinger Equation
 author: Natalie Woods
-nav_exclude: true
 ---
 
 # Time-independent Schrodinger Equation
-The time-independent variant for Schrodinger’s equation is $$Hψ=Eψ$$ where $$ψ$$ is a wave function, $E$ is the energy of the wave, and $H$ is the Hamiltonian operator. This equation is an eigenfunction with eigenvalue $E$. Below we will derive the value of $E$
+The time-independent variant for Schrodinger’s equation is $$Hψ=Eψ$$ where $$ψ$$ is a wave function, $E$ is the energy of the wave, and $H$ is the Hamiltonian operator. This equation is an eigenfunction with eigenvalue $E$. Below we will derive the value of $$E$$
 
-## Derivation of constant $E$
+## Derivation of constant $$E$$
 To derive $E$, the energy (or amplitude) of the wave, we first manipulate the classical equation for kinetic energy to get it in terms of momentum p:
 
 $$E = \frac{1}{2}mv^2 = \frac{(mv)^2}{2m} = \frac{p^2}{2m}$$
