@@ -21,7 +21,7 @@ $λ=\frac{2π}{k}$ (where k is the spatial frequency of the wave) is then substi
 
 $$E=\frac{h(\frac{k}{2π})^2}{2m}$$
 
-To simplify the appearance of the final equation, we substitute $ℏ=\frac{h}{2π}$. Thus the constant, E, is equal to
+To simplify the appearance of the final equation, we substitute $ℏ=\frac{h}{2π}$. Thus the constant, $E$, is equal to
 
 $$E=\frac{ℏ^2 k^2}{2m}$$
 
