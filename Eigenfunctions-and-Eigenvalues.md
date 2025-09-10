@@ -2,7 +2,6 @@
 title: Eigenfunctions and Eigenvalues
 layout: default
 author: Hans Kindstedt
-nav_exclude: true # excludes file from navigation
 ---
 
 # Eigenfunctions and Eigenvalues
