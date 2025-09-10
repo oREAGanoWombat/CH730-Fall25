@@ -17,7 +17,10 @@ $$p = \frac{h}{\lambda}$$
 >
 > **Consider this sine wave:**
 > <p align="center"><img src="images/de-broglie-relation-1.jpg"></p>
+
+{: .highlight }
 > <h4>Can we express the speed of this light in terms of frequency?</h4>
+
 > We know that speed is the ratio of distance travelled over time. Thus if we let wavelength $$\lambda$$ be distance travelled and time at $$2\pi \ t_{2\pi}$$ be the time interval of interest, we get
 > 
 > $$c = \frac{\lambda}{t_{2\pi}}$$
@@ -31,7 +34,9 @@ $$p = \frac{h}{\lambda}$$
 > $$c=\frac{\lambda}{1/\nu} \Rightarrow c=\lambda \cdot \nu$$
 > 
 
+{: .hightlight }
 #### Recall Functions for Kinetic Energy $$E$$
+
 > $$\begin{align}
 > E & = \frac{1}{2}mv^{2} \\
 > E & = mc^{2} \\
