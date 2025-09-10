@@ -35,7 +35,7 @@ $$p = \frac{h}{\lambda}$$
 > 
 
 {: .hightlight }
-#### Recall Functions for Kinetic Energy $$E$$
+> **Recall Functions for Kinetic Energy $$E$$**
 
 > $$\begin{align}
 > E & = \frac{1}{2}mv^{2} \\
