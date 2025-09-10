@@ -1,9 +1,16 @@
 # CH730 Advanced Physical Chemistry
 
----
-
 ## Helpful Links
 [Just the Docs Theme](https://just-the-docs.github.io/just-the-docs/) \
 [List of LaTeX Math Symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) \
 [Markdown Guide](https://www.markdownguide.org) \
 [StackEdit](https://stackedit.io)
+
+## General Website To-Do
+
+## Coming Soon!
+- Classical Vibration (*Hans*)
+- Quantum Harmonic Oscillator (*Logan*)
+- Eigenfunctions of the Quantum Harmonic Oscillator (*Natalie*)
+- Particle in a Ring (*Juliette*)
+- Particle on a Mobius Strip (*Reagan*)
