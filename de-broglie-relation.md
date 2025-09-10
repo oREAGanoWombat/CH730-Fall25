@@ -50,7 +50,7 @@ We can now use this in our eqations for energy
 
 $$E=h \left( \frac{c}{\lambda} \right) = mc^{2} \Rightarrow mc = \frac{h}{\lambda} = p$$
 
-<u>Thus the *de Broglie Relation* is writted as</u>
+Thus the *de Broglie Relation* is writted as
 
 $$p=\frac{h}{\lambda}$$
 
