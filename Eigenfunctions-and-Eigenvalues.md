@@ -2,6 +2,7 @@
 title: Eigenfunctions and Eigenvalues
 layout: default
 author: Hans Kindstedt
+nav_order: 3
 ---
 
 # Eigenfunctions and Eigenvalues
