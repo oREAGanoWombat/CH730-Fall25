@@ -1,2 +1,40 @@
 // redefine variables to adjust the overall look of the website
 // https://github.com/just-the-docs/just-the-docs/blob/main/_sass/support/_variables.scss
+
+// Typography
+
+// prettier-ignore
+$body-font-family: roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji";
+
+// Colors
+
+$white: #fff;
+$grey-dk-000: #cccccc;
+$grey-dk-100: #b2b2b2;
+$grey-dk-200: #808080;
+$grey-dk-250: #4d4d4d;
+$grey-dk-300: #333333;
+$grey-lt-000: #f2f2f2;
+$grey-lt-100: #eeebee;
+$grey-lt-200: #ecebed;
+$grey-lt-300: #e6e1e8;
+$purple-000: #84a0dc;
+$purple-100: #728bcf;
+$purple-200: #5b73bb;
+$purple-300: #4156a1;
+$blue-000: #80c3d4;
+$blue-100: #6fb2c5;
+$blue-200: #599baf;
+$blue-300: #427e93;
+$green-000: #bfcc46;
+$green-100: #a2b729;
+$green-200: #8d9e2b;
+$green-300: #6f7d1c;
+$yellow-000: #fef8cb;
+$yellow-100: #fde565;
+$yellow-200: #f8da3e;
+$yellow-300: #fac800;
+$red-000: #ea1500;
+$red-100: #cc0000;
+$red-200: #b40000;
+$red-300: #990000;
