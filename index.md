@@ -8,7 +8,7 @@ nav_exclude: true
 This website was created by Fall 2025 CH 730 students at North Carolina State University. The instructor for the course, Dr. Thomas Theis, chose to make this website as a means of creating further discussion on course topics and spreading our notes and knowledge with the public. Much of this website references Atkins' Physical Chemistry 11e[^1], the assigned textbook for CH 730.
 
 Browse Topics
-{: .label .label-purple }
+{: .label .label-red .section-label }
 
 [de Broglie Relation](de-broglie-relation.md){: .btn } \
 [Waves and Euler Formulas](waves-and-euler-formulas.md){: .btn } \
@@ -18,7 +18,7 @@ Browse Topics
 [One-Dimensional Particle in a Box](1D-Particle-in-a-Box.md){: .btn } 
 
 Coming Soon!
-{: .label .label-yellow }
+{: .label .label-yellow .section-label }
 
 - [ ] Classical Vibration
 - [ ] Quantum Harmonic Oscillator

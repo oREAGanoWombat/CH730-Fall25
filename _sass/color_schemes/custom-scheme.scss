@@ -1,10 +1,25 @@
 // redefine variables to adjust the overall look of the website
 // https://github.com/just-the-docs/just-the-docs/blob/main/_sass/support/_variables.scss
-
 // Typography
 
 // prettier-ignore
 $body-font-family: roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji";
+
+// Font size
+// `-sm` suffix is the size at the small (and above) media query
+
+$font-size-1: 0.5625rem;
+$font-size-1-sm: 0.625rem;
+$font-size-2: 0.6875rem; // h4 - uppercased!, h6 not uppercased, text-small
+$font-size-3: 0.75rem; // h5
+$font-size-4: 0.875rem;
+$font-size-5: 1rem; // h3
+$font-size-6: 1.125rem; // h2
+$font-size-7: 1.5rem;
+$font-size-8: 2rem; // h1
+$font-size-9: 2.25rem;
+$font-size-10: 2.625rem;
+$font-size-10-sm: 3rem;
 
 // Colors
 
@@ -26,6 +41,10 @@ $blue-000: #80c3d4;
 $blue-100: #6fb2c5;
 $blue-200: #599baf;
 $blue-300: #427e93;
+$aqua-000: #91f2cb;
+$aqua-100: #57dab1;
+$aqua-200: #2db597;
+$aqua-300: #008473;
 $green-000: #bfcc46;
 $green-100: #a2b729;
 $green-200: #8d9e2b;
@@ -34,7 +53,63 @@ $yellow-000: #fef8cb;
 $yellow-100: #fde565;
 $yellow-200: #f8da3e;
 $yellow-300: #fac800;
+$flame-000: #f8a812;
+$flame-100: #f28c0d;
+$flame-200: #e16408;
+$flame-300: #d14905;
 $red-000: #ea1500;
 $red-100: #cc0000;
 $red-200: #b40000;
 $red-300: #990000;
+
+$link-color: $red-300;
+
+.label:not(g),
+.label-blue:not(g) {
+  background-color: $blue-000;
+  font-weight: bold;
+}
+
+.label-purple:not(g) {
+  background-color: $purple-200;
+}
+
+.label-green:not(g) {
+  background-color: $green-000;
+}
+
+.label-yellow:not(g) {
+  color: $grey-dk-250;
+  background-color: $yellow-100;
+}
+
+.label-red:not(g) {
+  background-color: $red-200;
+}
+
+.label.section-label {
+  padding: 5px;
+  font-size: 20px !important;
+  margin: 0;
+}
+
+.side-bar {
+  width: 30%;
+  padding-left: 5%;
+}
+
+.site-header {
+  white-space: normal;
+  flex: 1 1 auto;
+  height: auto;
+  max-height: 100px !important;
+  width: 100% !important;
+}
+
+.main {
+  max-width: 90%;
+}
+
+.site-nav {
+  width: 100% !important;
+}
