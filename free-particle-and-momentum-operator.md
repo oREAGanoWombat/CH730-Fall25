@@ -2,6 +2,7 @@
 title: Free Particle and Momentum Operator
 layout: default
 author: Juliette Chisam-Majid
+nav_order: 5
 ---
 
 # Summary Notes of Free Particle and Momentum Operator  
