@@ -2,6 +2,7 @@
 title: Time-Independent Schrodinger Equation
 layout: default
 author: Natalie Woods
+nav_order: 4
 ---
 
 # Time-independent Schrodinger Equation
