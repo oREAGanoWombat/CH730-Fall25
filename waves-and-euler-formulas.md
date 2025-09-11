@@ -2,6 +2,7 @@
 title: Waves & Euler Formulas
 layout: default
 author: Reagan McNeill Womack
+nav_order: 2
 ---
 
 # Waves & Euler Formulas
