@@ -1,5 +1,6 @@
 ---
 title: Time-Independent Schrodinger Equation
+layout: default
 author: Natalie Woods
 ---
 
@@ -42,5 +43,6 @@ Thus, the final expression for the Hamiltonian operator $$H$$ for $$Hψ=Eψ$$ is
 
 $$H=\frac{-ℏ^2}{2m} ∇^2$$
 
+---
 
-
+Page Author: *{{ page.author }}*
