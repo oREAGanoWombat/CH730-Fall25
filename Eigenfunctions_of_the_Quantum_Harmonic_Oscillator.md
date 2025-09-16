@@ -14,7 +14,15 @@ The solution to this equation is in the form
 
 $$\psi_v(x) = N_vH_v(y)e^\frac{-y^2}{2}$$
 
-where $$y = \frac{x}{\alpha}$$ and $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$.
+where $$y = \frac{x}{\alpha}$$, $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$, and $$N_v$$ is the normalization constant 
+
+$$N_v =\frac{1}{\alpha\pi^\frac{1}{2}2^vv!}$$
+
+$$H_v$$, however, has multiple expressions based on the frequency $$v$$, shown in the table below:
+<p align="center"><img src="/assets/images/Hermite polynomials.jpg"></p>
+Thus, depending on the value of $$v$$, the formula of the wave function
+
+
 
 ---> discuss how the polynomials differ at v=0 and how the eigenvalue will change depending on v. Give example derivation for v=0 as we did in class.
 
