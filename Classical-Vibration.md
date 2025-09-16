@@ -12,18 +12,21 @@ Let's imagine a ball with mass $$m$$ attached to an immovable wall by a spring. 
 
 The force applied on the ball by the spring can be described by the equation $$F=-k_{f}x$$. $$k_{f}$$ is the force constant of the spring which is dependant on the spring itself and $$x$$ describes the position of the ball in relation to the spring's equilibrium point $$(x=0)$$. This intuitively makes sense. As you pull the ball in the $$+x$$ direction away from the wall, the spring resists pulling it back in the $$-x$$ direction and vise versa. 
 
-The force can also be described using Newton's second law of motion as $$F=ma$$. When combined with the spring equation, we get the following equation relating the ball's position 
+The force can also be described using Newton's second law of motion as $$F=ma$$. Acceleration (a) can also be described as the derivative of velocity (v) or the double derivative of position (x) with respect to time. When combined with the spring equation, we get the following equation:
 
-## Header 2
-### Header 3
-#### Header 4
-This is some text
+$$-k_{f}x=ma=m\frac{dv}{dt}=m\frac{d^{2}x}{dt^{2}}$$
 
----
+All of the aforementioned equations describe the force applied on the mass by the spring but not the position of the mass as a function of time. The equation for that is as follows:
 
-$$Isolated \ math \ looks \ like \ this \ y=2x^{2}$$
+$$x(t)=A\sin{(2\pi\nu t)}=A\sin{(\sqrt{\frac{k_{f}}{m}}t)}$$
+>Note: $$\nu = \frac{1}{2\pi}\sqrt{\frac{k_{f}}{m}}$$
 
-In-line math looks like this $$y=2x^{2}$$.
+To prove that this equation accurately describes the ball's position, we can plug it in to our spring equation for force and solve like so:
+
+$$F=ma=m(A\sin{(\sqrt{\frac{k_{f}}{m}}t)})\frac{d^{2}x}{dt^{2}}=\sqrt{\frac{k_{f}}{m}}mA\cos{(\sqrt{\frac{k_{f}}{m}}t)}\frac{dx}{dt}=-{k_{f}}A\sin{\sqrt{\frac{k_{f}}{m}}t)}=-{k_{f}}x(t)$$
+
+You can see the result is consistent with our equation from before ($$F=ma=-k_{f}x$$). 
+
 
 ---
 
