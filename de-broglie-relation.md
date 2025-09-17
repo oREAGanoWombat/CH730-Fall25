@@ -17,7 +17,7 @@ $$p = \frac{h}{\lambda}$$
 ### Let's take a look at how we find this definition...
 >
 > **Consider this sine wave:**
-> <p align="center"><img src="/assets/images/de-broglie-relation-1.jpg"></p>
+> <p align="center"><img src="assets/images/de-broglie-relation-1.jpg"></p>
 
 {: .highlight }
 > <h4>Can we express the speed of this light in terms of frequency?</h4>
