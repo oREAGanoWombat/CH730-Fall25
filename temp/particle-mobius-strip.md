@@ -16,7 +16,7 @@ $$\Psi(\phi) = \Psi(\phi+2\pi)$$
 
 A Möbius strip is much like a ring in that one full pass around the Möbius strip would result in the particle starting and ending in the same location. The main difference between a Möbius strip and a ring is that the particle would need to travel twice the distance of that in a ring when it is on a Möbius strip for the particle to return to the same location. This is because for a particle to travel the full distance of the Möbius strip, it must travel along both sides of the Möbius strip.
 
-<p align="center"><img src="/assets/images/mobius-strip.jpeg"></p>
+<p align="center"><img src="/assets/images/mobius-strip.jpeg">Image Source[^2]</p>
 
 This means that the wave function must equal itself when we add $$4\pi$$ rather than $$2\pi$$ as seen in the particle on a ring.
 
@@ -41,3 +41,4 @@ $$m_{l} = \ldots ,\frac{-3}{2},-1,\frac{-1}{2},0,\frac{1}{2},1,\frac{3}{2},\ldot
 *Page Author: {{ page.author }}*
 
 [^1]: PLACEHOLDER, link to particle on a ring page
+[^2}: https://medium.com/@shengmorni/1963-88a359d2f68b
