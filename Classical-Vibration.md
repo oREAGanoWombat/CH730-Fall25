@@ -25,7 +25,25 @@ To prove that this equation accurately describes the ball's position, we can plu
 
 $$F=ma=m(A\sin{(\sqrt{\frac{k_{f}}{m}}t)})\frac{d^{2}x}{dt^{2}}=\sqrt{\frac{k_{f}}{m}}mA\cos{(\sqrt{\frac{k_{f}}{m}}t)}\frac{dx}{dt}=-{k_{f}}A\sin{\sqrt{\frac{k_{f}}{m}}t)}=-{k_{f}}x(t)$$
 
-You can see the result is consistent with our equation from before ($$F=ma=-k_{f}x$$). 
+You can see the result is consistent with our equation from before ($$F=ma=-k_{f}x$$) verifying our chosen function $$x(t)$$. 
+
+## Potential derivation
+To find the ball's potential in relation to its position, we begin with the following expression:
+
+$$E=\int^{x}_{0}Fdx$$
+
+The energy of the system is equal to the sum of the force applied by the spring over the distance the ball travelled. Taking the derivative of each side gives us the change in energy over the distance travelled:
+
+$$dE=Fdx$$
+
+The potential of the ball is defined as the negative value of this energy as the spring pulls the ball in the opposite direction and we can plug in our spring equation for force to arrive at:
+
+$$dv=-fdx=k_{f}xdx$$
+
+We then integrate both sides to get the potential of the ball.
+
+$$V=\frac{1}{2}k_{f}x^{2}$$
+
 
 
 ---
