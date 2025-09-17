@@ -37,7 +37,7 @@ We then must compute the double derivative of $$\psi_0(x)$$ to easily plug it in
 
 $$\frac{d^2}{dx^2}\psi_0(x) = \frac{d^2}{dx^2}[N_0(x)e^\frac{-x^2}{2\alpha^2}]$$
 
-After much computation, we arrive at the following solution:
+After the derivation process, we arrive at the following solution:
 
 $$\frac{d^2}{dx^2}\psi_0(x) = \frac{x^2}{\alpha^4}\psi_0 - \frac{1}{\alpha^2}\psi_0$$
 
