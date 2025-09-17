@@ -18,15 +18,15 @@ $$F_{1}=-k_{f}x$$
 In the absence of any other external forces, Newton's second law states that this force must be equal to the mass, $$m$$, times its acceleration, $$a$$.
 
 $$\begin{align}
-F_{1} &= -k_{f}x = ma
--k_{f}x &= ma
+F_{1} &= -k_{f}x = ma \\
+-k_{f}x &= ma \\
 \end{align}$$
 
 Rewriting acceleration as the second derivative of position, with respect to time, yields a linear second order differential equation:
 
 $$\begin{align}
--k_{f}x &= m \frac{d^{2}x}{dt^{2}}
-m \frac{d^{2}x}{dt^{2}} + k_{f}x = 0
+-k_{f}x &= m \frac{d^{2}x}{dt^{2}} \\
+m \frac{d^{2}x}{dt^{2}} + k_{f}x = 0 \\
 \end{align}$$
 
 We can employ the same method for solving linear second order differential equation that we have been using so far. We will take the trial wave function $$x(t)$$ and substitute it into our differential equation.
@@ -34,9 +34,9 @@ We can employ the same method for solving linear second order differential equat
 Note:
 
 $$\begin{align}
-x(t) &= Nsin(2 \pi \nu t) \hspace{1cm} \nu = \frac{1}{2\pi} \sqrt{\frac{k_{f}}{m}}
-\frac{d^{2}x(t)}{dt^{2}} &= N \frac{d}{dt} \frac{2\pi}{2\pi} \sqrt{\frac{k_{f}}{m}} cos(2 \pi \frac{1}{2\pi} \sqrt{k_{f}}{m} t)
-&= \frac{-k_{f}}{m} N sin(2 \pi \nu t)
+x(t) &= Nsin(2 \pi \nu t) \hspace{1cm} \nu = \frac{1}{2\pi} \sqrt{\frac{k_{f}}{m}} \\
+\frac{d^{2}x(t)}{dt^{2}} &= N \frac{d}{dt} \frac{2\pi}{2\pi} \sqrt{\frac{k_{f}}{m}} cos(2 \pi \frac{1}{2\pi} \sqrt{k_{f}}{m} t) \\
+&= \frac{-k_{f}}{m} N sin(2 \pi \nu t) \\
 \end{align}$$
 
 Where $$N$$ is the normailzation constant and $$\nu$$ is the frequency of oscillation.
@@ -44,8 +44,8 @@ Where $$N$$ is the normailzation constant and $$\nu$$ is the frequency of oscill
 Substituting into our differential equation yields:
 
 $$\begin{align}
-m \frac{d^{2}x(t)}{dt^{2}} + k_{f}x(t) &= 0
-m (\frac{-k_{f}}{m} N sin (2 \pi \nu t)) + k_{f} (Nsin(2 \pi \nu t)) &= 0
+m \frac{d^{2}x(t)}{dt^{2}} + k_{f}x(t) &= 0 \\
+m (\frac{-k_{f}}{m} N sin (2 \pi \nu t)) + k_{f} (Nsin(2 \pi \nu t)) &= 0 \\
 -k_{f}N sin(2 \pi \nu t) + k_{f}N sin(2 \pi \nu t) &= 0
 0 &= 0
 \end{align}$$
