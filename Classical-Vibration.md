@@ -18,8 +18,10 @@ $$-k_{f}x=ma=m\frac{dv}{dt}=m\frac{d^{2}x}{dt^{2}}$$
 
 All of the aforementioned equations describe the force applied on the mass by the spring but not the position of the mass as a function of time. The equation for that is as follows:
 
-$$x(t)=A\sin{(2\pi\nu t)}=A\sin{(\sqrt{\frac{k_{f}}{m}}t)}$$
->Note: $$\nu = \frac{1}{2\pi}\sqrt{\frac{k_{f}}{m}}$$
+$$x(t)=A\sin{(2\pi\nu t)}=A\sin{(\sqrt{\frac{k_{f}}{m}}t)} = x(t)=A\sin{(\omega t)}$$
+>Note: $$\nu = \frac{1}{2\pi}\sqrt{\frac{k_{f}}{m}}$$ and $$\omega=\sqrt{\frac{k_f}{m}}$$
+
+>$$\nu$$ is the frequency of the vibration in terms of cycles per time while $$\omega$$ is the amount of radians travelled per time.
 
 To prove that this equation accurately describes the ball's position, we can plug it in to our spring equation for force and solve like so:
 
