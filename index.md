@@ -10,12 +10,12 @@ This website was created by Fall 2025 CH 730 students at North Carolina State Un
 Browse Topics
 {: .label .label-red .section-label }
 
-[de Broglie Relation](de-broglie-relation.md){: .btn } \
-[Waves and Euler Formulas](waves-and-euler-formulas.md){: .btn } \
-[Eigenfunctions and Eigenvalues](Eigenfunctions-and-Eigenvalues.md){: .btn } \
-[Time-Independent Schrodinger Equation](time-independent-schrodinger-equation.md){: .btn } \
-[Free Particle and Momentum Operator](free-particle-and-momentum-operator.md){: .btn } \
-[One-Dimensional Particle in a Box](1D-Particle-in-a-Box.md){: .btn } 
+[de Broglie Relation](de-broglie-relation.html){: .btn } \
+[Waves and Euler Formulas](waves-and-euler-formulas.html){: .btn } \
+[Eigenfunctions and Eigenvalues](Eigenfunctions-and-Eigenvalues.html){: .btn } \
+[Time-Independent Schrodinger Equation](time-independent-schrodinger-equation.html){: .btn } \
+[Free Particle and Momentum Operator](free-particle-and-momentum-operator.html){: .btn } \
+[One-Dimensional Particle in a Box](1D-Particle-in-a-Box.html){: .btn } 
 
 Coming Soon!
 {: .label .label-yellow .section-label }
