@@ -47,7 +47,7 @@ As the formula for $$\frac{d^2}{dx^2}\psi_0(x)$$ is now known, we substitute it 
 
 $$\frac{-ℏ^2}{2m} (\frac{x^2}{\alpha^4}\psi_0 - \frac{1}{\alpha^2}\psi_0) + \frac{1}{2}kx^2\psi_0= E_0\psi_0$$
 
-Upon substituting $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$, we find
+After substituting $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$ and simplifying the expression, we receive
 
 $$\frac{1}{2}\sqrt{\frac{k_f}{m}}ℏ\psi_0 = E_0\psi_0$$
 
