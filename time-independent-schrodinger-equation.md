@@ -26,7 +26,7 @@ To simplify the appearance of the final equation, we substitute $$ℏ=\frac{h}{2
 
 $$E=\frac{ℏ^2 k^2}{2m}$$
 
-## Derivation of Hamiltonian Operator $H$
+## Derivation of Hamiltonian Operator $$H$$
 From the (proven) relationship $$∇^2 ψ=-k^2ψ$$, and the constant $$E=\frac{ℏ^2 k^2}{2m}$$, we can derive the expression for the Hamiltonian operator, $$H$$.
 Starting with $$Hψ=Eψ$$, the known constant $$\frac{ℏ^2 k^2}{2m}$$ for $$E$$ is plugged in, as shown below:
 
