@@ -32,6 +32,7 @@ m \frac{d^{2}x}{dt^{2}} + k_{f}x = 0
 We can employ the same method for solving linear second order differential equation that we have been using so far. We will take the trial wave function $$x(t)$$ and substitute it into our differential equation.
 
 Note:
+
 $$\begin{align}
 x(t) &= Nsin(2 \pi \nu t) \hspace{1cm} \nu = \frac{1}{2\pi} \sqrt{\frac{k_{f}}{m}}
 \frac{d^{2}x(t)}{dt^{2}} &= N \frac{d}{dt} \frac{2\pi}{2\pi} \sqrt{\frac{k_{f}}{m}} cos(2 \pi \frac{1}{2\pi} \sqrt{k_{f}}{m} t)
@@ -41,6 +42,7 @@ x(t) &= Nsin(2 \pi \nu t) \hspace{1cm} \nu = \frac{1}{2\pi} \sqrt{\frac{k_{f}}{m
 Where $$N$$ is the normailzation constant and $$\nu$$ is the frequency of oscillation.
 
 Substituting into our differential equation yields:
+
 $$\begin{align}
 m \frac{d^{2}x(t)}{dt^{2}} + k_{f}x(t) &= 0
 m (\frac{-k_{f}}{m} N sin (2 \pi \nu t)) + k_{f} (Nsin(2 \pi \nu t)) &= 0
@@ -52,3 +54,13 @@ So our trial wavefunction holds for the conditions we have created so far.
 Next, we need to use our wavefunction to solve the Schrödinger Equation. Recall the full form of the Schrödinger Equation:
 
 $$\frac{-\hbar^{2}}{2m}\nabla^{2} \Psi (x) + V(x) \Psi (x) = E \Psi (x)$$
+
+We can now move on the defining the potential energy, $$V(x)$$ , for this system. 
+
+For a constant force, the kinetic energy is given by:
+
+$$E_{k}=Fx$$
+
+For differential forces, the energy is given by the integral of the force with respect to x:
+
+$$E_{k}=\int_{0}^{x_1}Fdx$$
