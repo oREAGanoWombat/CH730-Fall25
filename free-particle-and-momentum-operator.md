@@ -51,7 +51,7 @@ The momentum operator makes changes to the wavefunction. Ask for momentum and ge
 
 Confirm this with an example where $$p = \frac{\hbar}{i} \frac{d}{dx}$$.  
 
-$$p\Psi = p(A e^{i k x}) = \frac{\hbar}{i} \frac{d}{dx}(A e^{i k x}) = \frac{\hbar}{i}A(i k)e^{i k x} = \hbar k A e^{i k x} = \rho A e^{i k x}$$  
+$$\hat{p} \Psi = p(A e^{i k x}) = \frac{\hbar}{i} \frac{d}{dx}(A e^{i k x}) = \frac{\hbar}{i}A(i k)e^{i k x} = \hbar k A e^{i k x} = \rho A e^{i k x}$$  
 
 This returns the scalar momentum ($$\rho$$) and returns the wavefunction eigenfunction ($$A e^{i k x}$$).  
 
