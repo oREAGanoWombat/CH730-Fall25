@@ -1,7 +1,7 @@
 ---
 title: Free Particle and Momentum Operator
 layout: default
-author: Juliette Chisam-Majid
+author: Juliette
 nav_order: 5
 ---
 
