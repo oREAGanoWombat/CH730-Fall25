@@ -41,4 +41,4 @@ $$m_{l} = \ldots ,\frac{-3}{2},-1,\frac{-1}{2},0,\frac{1}{2},1,\frac{3}{2},\ldot
 *Page Author: {{ page.author }}*
 
 [^1]: PLACEHOLDER, link to particle on a ring page
-[^2}: https://medium.com/@shengmorni/1963-88a359d2f68b
+[^2]: https://medium.com/@shengmorni/1963-88a359d2f68b
