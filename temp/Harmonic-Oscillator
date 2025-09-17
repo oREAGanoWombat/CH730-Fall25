@@ -1,0 +1,31 @@
+---
+title: Harmonic Oscillator
+layout: default
+author: Logan Grady
+nav_exclude: true
+---
+
+#The Harmonic Oscillator
+
+The Harmonic Oscillator is the second quantum model we will see which can be solved exactlly. As a rationalization for creating this model, we can determine what is oscillating in a chemical system. The answer is bond between atoms, so we can model vibrations of chemical bonds using the Harmonic Oscillator model.
+
+##Creating the Model
+
+First, imagine a mass, $$m$$ , connected to a spring, lying along the x-axis, with the other end of the spring connected to an immovable wall. At equillibrium, the mass will be at a constant value of x, we can set this arbitraily to be the point x=0. However, by pulling the mass in one direction, the spring can be displaced by some amount, $$x$$. The 'restoring' force to return the spring to equilibrium after displacement, $$F_1$$ , is proportional to the displacement, $$x$$, where the proportionality factor is known as the spring constant, $$k_f$$.Also, the restoring force is in the opposite direction of the displacement, so it is negative. We now have:
+
+$$F_{1}=-k_{f}x$$
+
+In the absence of any other external forces, Newton's second law states that this force must be equal to the mass, $$m$$, times its acceleration, $$a$$.
+
+$$\begin{align}
+F_{1} &= -k_{f}x = ma
+-k_{f}x &= ma
+\end{align}$$
+
+Rewriting acceleration as the second derivative of position yields a linear second order differential equation:
+
+$$\begin{align}
+-k_{f}x &= m \frac{d^{2}x}{dx^{2}}
+m \frac{d^{2}x}{dx^{2}} + k_{f}x = 0
+\end{align}$$
+
