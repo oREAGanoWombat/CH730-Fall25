@@ -23,7 +23,7 @@ $$e^\frac{-y^2}{2}$$ is the formula for the guassian curve, implying there is a 
 $$H_v$$, however, has multiple expressions based on the frequency $$v$$, shown in the table below:
 <p align="center"><img src="/assets/images/Hermite polynomials.jpg"></p>
 
-Thus, depending on the value of $$v$$, the formula of the wave function changes. The image below displays the solutions to $$\frac{-ℏ^2}{2m} ∇^2\psi + \frac{1}{2}kx^2\psi= E\psi$$ with increasing $$v$$.
+Thus, depending on the value of $$v$$, the formula of the wave function changes. The image below displays the solutions to $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ with increasing $$v$$.
 
 <p align="center"><img src="/assets/images/quantumharmonic solution.jpg"></p>
 
