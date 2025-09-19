@@ -8,7 +8,7 @@ nav_order: 4
 # Time-independent Schrodinger Equation
 The time-independent variant for Schrodinger’s equation is $$Hψ=Eψ$$ where $$ψ$$ is a wave function, $$E$$ is the energy of the wave, and $$H$$ is the Hamiltonian operator. $$\psi$$ is an eigenfunction with eigenvalue $$E$$. Below we will derive the value of $$E$$.
 
-## Derivation of constant $$E$$
+## Kinetic Energy $$E$$ of a Wave
 To derive $$E$$, the energy (or amplitude) of the wave, we first manipulate the classical equation for kinetic energy to get it in terms of momentum $$p$$:
 
 $$E = \frac{1}{2}mv^2 = \frac{(mv)^2}{2m} = \frac{p^2}{2m}$$
@@ -26,8 +26,8 @@ To simplify the appearance of the final equation, we substitute $$ℏ=\frac{h}{2
 
 $$E=\frac{ℏ^2 k^2}{2m}$$
 
-## Derivation of Hamiltonian Operator $$H$$
-From the (proven) relationship $$∇^2 ψ=-k^2ψ$$, and the constant $$E=\frac{ℏ^2 k^2}{2m}$$, we can derive the expression for the Hamiltonian operator, $$H$$.
+## Determination of Hamiltonian Operator $$H$$
+From the (proven) relationship $$∇^2 ψ=-k^2ψ$$ [^1], and the constant $$E=\frac{ℏ^2 k^2}{2m}$$, we can derive the expression for the Hamiltonian operator, $$H$$.
 Starting with $$Hψ=Eψ$$, the known constant $$\frac{ℏ^2 k^2}{2m}$$ for $$E$$ is plugged in, as shown below:
 
 $$Hψ=\frac{ℏ^2 k^2}{2m} ψ$$
@@ -46,4 +46,6 @@ $$H=\frac{-ℏ^2}{2m} ∇^2$$
 
 ---
 
-Page Author: *{{ page.author }}*
+Page Author: *{{ Natalie Woods }}*
+
+[^1]: Link to Eigenfunction and Eigenvalues webpage
