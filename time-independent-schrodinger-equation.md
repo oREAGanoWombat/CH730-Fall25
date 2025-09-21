@@ -19,7 +19,7 @@ Despite the above energy equation being specific to classical mechanics, we can 
 $$E=\frac{p^2}{2m}=\frac{(\frac{h}{λ})^2}{2m}$$
 
 Where $$h$$ is Planck’s constant and $$λ$$ is the particle’s wavelength.
-$$λ=\frac{2π}{k}$$^[1] (where $$k$$ is the spatial frequency of the wave) is then substituted into the equation to achieve
+$$λ=\frac{2π}{k}$$[^1] (where $$k$$ is the spatial frequency of the wave) is then substituted into the equation to achieve
 
 $$E=\frac{h(\frac{k}{2π})^2}{2m}$$
 
