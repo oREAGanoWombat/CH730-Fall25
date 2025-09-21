@@ -19,7 +19,7 @@ Despite the above energy equation being specific to classical mechanics, we can 
 $$E=\frac{p^2}{2m}=\frac{(\frac{h}{λ})^2}{2m}$$
 
 Where $$h$$ is Planck’s constant and $$λ$$ is the particle’s wavelength.
-$$λ=\frac{2π}{k}$$ (where $$k$$ is the spatial frequency of the wave) is then substituted into the equation to achieve
+$$λ=\frac{2π}{k}$$^[1] (where $$k$$ is the spatial frequency of the wave) is then substituted into the equation to achieve
 
 $$E=\frac{h(\frac{k}{2π})^2}{2m}$$
 
@@ -28,7 +28,7 @@ To simplify the appearance of the final equation, we substitute $$ℏ=\frac{h}{2
 $$E=\frac{ℏ^2 k^2}{2m}$$
 
 ## Determination of Hamiltonian Operator $$H$$
-From the (proven) relationship $$∇^2 ψ=-k^2ψ$$ [^1], and the constant $$E=\frac{ℏ^2 k^2}{2m}$$, we can determine the expression for the Hamiltonian operator, $$H$$.
+From the (proven) relationship $$∇^2 ψ=-k^2ψ$$ [^2], and the constant $$E=\frac{ℏ^2 k^2}{2m}$$, we can determine the expression for the Hamiltonian operator, $$H$$.
 Starting with $$Hψ=Eψ$$, the known constant $$\frac{ℏ^2 k^2}{2m}$$ for $$E$$ is plugged in, as shown below:
 
 $$Hψ=\frac{ℏ^2 k^2}{2m} ψ$$
@@ -48,5 +48,5 @@ $$H=\frac{-ℏ^2}{2m} ∇^2$$
 ---
 
 Page Author: *{{ Natalie Woods }}*
-
-[^1]: Link to Eigenfunction and Eigenvalues webpage
+[^1]: Link to broccoli
+[^2]: Link to Eigenfunction and Eigenvalues webpage
