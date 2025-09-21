@@ -6,8 +6,9 @@ nav_order: 4
 ---
 
 # Time-independent Schrodinger Equation
-The time-independent variant for Schrodinger’s equation is $$Hψ=Eψ$$ where $$ψ$$ is a wave function, $$E$$ is the energy of the wave, and $$H$$ is the Hamiltonian operator. $$\psi$$ is an eigenfunction with eigenvalue $$E$$. Below we will derive the value of $$E$$.
+In classical mechanics, an object moving through space possesses characteristics (acceleration, momentum, position, etc) that can be accurately and precisely calculated. For example, if the initial conditions are known, a ball being thrown in the air can have its exact energy or momentum calculated at any position. However, in quantum mechanics, such precise models simply break down. Rather than a particle being localized like a classical object such as a ball, its position at any one point in time is spread out in space.  Although we have no model to accurately predict the location and every attribute of a particle all at once, we can use Schrodinger's Equation to develop probabilistic predictions on the state (including the probability distribution and energy) of the particle.
 
+The time-independent Schrodinger’s equation for a freely-moving particle is $$Hψ=Eψ$$ where $$ψ$$ is a wave function describing the particle's state, $$E$$ is the corresponding energy eigenvalue of the state, and $$H$$ is the Hamiltonian operator. This variant is the simplest form of Schrodinger's Equation as the state of the particle is stationary (i.e does not change with time). The Hamiltonian Operator is used on $$\psi$$ to receive the energy of the state, $$E$$, making it an essential tool in determining the particle's energy.
 ## Kinetic Energy $$E$$ of a Wave
 To derive $$E$$, the energy (or amplitude) of the wave, we first manipulate the classical equation for kinetic energy to get it in terms of momentum $$p$$:
 
@@ -27,7 +28,7 @@ To simplify the appearance of the final equation, we substitute $$ℏ=\frac{h}{2
 $$E=\frac{ℏ^2 k^2}{2m}$$
 
 ## Determination of Hamiltonian Operator $$H$$
-From the (proven) relationship $$∇^2 ψ=-k^2ψ$$ [^1], and the constant $$E=\frac{ℏ^2 k^2}{2m}$$, we can derive the expression for the Hamiltonian operator, $$H$$.
+From the (proven) relationship $$∇^2 ψ=-k^2ψ$$ [^1], and the constant $$E=\frac{ℏ^2 k^2}{2m}$$, we can determine the expression for the Hamiltonian operator, $$H$$.
 Starting with $$Hψ=Eψ$$, the known constant $$\frac{ℏ^2 k^2}{2m}$$ for $$E$$ is plugged in, as shown below:
 
 $$Hψ=\frac{ℏ^2 k^2}{2m} ψ$$
