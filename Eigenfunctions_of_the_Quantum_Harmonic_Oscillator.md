@@ -4,32 +4,31 @@ layout: default
 author: Natalie Woods
 nav_exclude: true # excludes file from navigation
 ---
-For a quantum harmonic oscillator, the Schrodinger equation is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function.
+As mentioned in the Harmonic Oscillator page [^1], Schrodinger's equation for a quantum harmonic oscillator is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function. Note $$V$$ is the potential energy function of a harmonic oscillator.
 
-Thus, with these definitions included, the equation is
+Thus, with these definitions included, Schrodinger's equation is
 
 $$\frac{-ℏ^2}{2m} ∇^2\psi + \frac{1}{2}kx^2\psi= E\psi$$
 
-The solution to this equation is in the form
+It has been determined that the energies permitted by the boundary conditions for Schrodinger's equation for an oscillator are $$E_v = (v + \frac{1}{2})ℏ\omega$$, where $$\omega=\sqrt{\frac{k_f}{m}}$$. We will later use this fact to prove that the precise solution to Schrodinger's Equation for a quantum harmonic oscillator is
 
 $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$
 
-where $$y = \frac{x}{\alpha}$$, $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$, and $$N_v$$ is the normalization constant 
+where $$y = \frac{x}{\alpha}$$, $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$, and $$N_v$$ is the normalization constant $$N_v =\frac{1}{\alpha\pi^\frac{1}{2}2^vv!}$$
 
-$$N_v =\frac{1}{\alpha\pi^\frac{1}{2}2^vv!}$$
+There are several oddities in this solution that set it apart from the other discussed wave functions, particularly with the presence of $$H_v$$ and $$e^\frac{-y^2}{2}$$. The exact development of this model will not be discussed, but it is important to conceptually understand its terms. The term $$e^\frac{-y^2}{2}$$ represents the Gaussian curve, reflecting the probabilistic nature to the solution of the equation. This is consistent with what we know about quantum mechanics, where certain properties can only be described by probability distributions. $$H_v$$, however, has multiple expressions based on the frequency $$v$$, shown in the table below:
 
-$$e^\frac{-y^2}{2}$$ is the formula for the guassian curve, implying there is a probabilistic nature to the solution of the equation, which we know to be true when describing the position of an electron.
-
-$$H_v$$, however, has multiple expressions based on the frequency $$v$$, shown in the table below:
 <p align="center"><img src="/assets/images/Hermite polynomials.jpg"></p>
 
-Thus, depending on the value of $$v$$, the formula of the wave function changes. The image below displays the solutions to $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ with increasing $$v$$.
+Depending on the value of $$v$$, the order of $$H_v$$ changes accordingly to $$v$$. Specifically, the degree of $$H_v$$ is equal to $$v$$. The image below displays the solutions to $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ with discretely increasing $$v$$.
 
 <p align="center"><img src="/assets/images/quantumharmonic solution.jpg"></p>
 
-The waves with even $$v$$ are symetric with respect to $$y=0$$ and those with odd $$v$$ are antisymmetric with respect to $$y=0$$. Included in this is the potential energy function.
+Plotted along with the solutions is the potential energy curve (blue parabola). The wave functions corresponding to even $$v$$ are symmetric with respect to $$y=0$$ and those corresponding to odd $$v$$ are antisymmetric with respect to $$y=0$$. As x approaches 0, the Guassian function approaches 1, and so $$H_v$$ dominates the behavior of the wave funtion near the origin. However, as x approaches infinity, the dampening effect of the Gaussian funtion is dominant, forcing the function to approach zero. 
 
-To verify that the solutions are correct we will evaluate it at ground state ($$v=0$$). After substituting $$H_v$$ with the corresponding polynomial at $$v=0$$, 1, and subtituting $$y = \frac{x}{\alpha}$$, the solution becomes
+To verify that the solutions are correct we will evaluate the solution at ground state ($$v=0$$). Afterwards, we can determine $$E_0$$ and evaluate its consistency with the expected energy level for a quantum harmon oscillator $$E_v = (v + \frac{1}{2})ℏ\omega$$.
+
+Thus, upon substituting $$H_v$$ with the corresponding polynomial at $$v=0$$, $$H_0 = 1$$, and subtituting $$y = \frac{x}{\alpha}$$, $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ becomes
 
 $$\psi_0(x) = N_0(x)e^\frac{-x^2}{2\alpha^2}$$
 
@@ -51,7 +50,7 @@ After substituting $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$ and simplifying
 
 $$\frac{1}{2}\sqrt{\frac{k_f}{m}}ℏ\psi_0 = E_0\psi_0$$
 
-And finally, substituting $$\omega=sqrt{\frac{k_f}{m}}$$ provides us with our final result:
+And finally, substituting $$\omega=\sqrt{\frac{k_f}{m}}$$ provides us with our final result:
 
 $$\frac{1}{2}ℏ\omega\psi_0 = E_0\psi_0$$
 
@@ -59,7 +58,7 @@ As we can see, the eigenvalue, $$E_0$$, is
 
 $$E_0 = \frac{1}{2}ℏ\omega\$$
 
-This agrees with the known scientific observation that the energies permitted by the boundary conditions for Schrodinger's equation for an oscillator are $$E_v = (v + \frac{1}{2})ℏ\omega$$. Thus, it follows that $$\psi_0$$, determined with the usage of hermite polynomials, is a solution to Schrodinger's equation for a harmonic oscillator.
+This result is consistent with the permissable energy levels of a quantum harmonic oscillator, delineated by $$E_v = (v + \frac{1}{2})ℏ\omega$$. Thus, it follows that $$\psi_0$$, determined with the usage of hermite polynomials, is a solution to Schrodinger's equation for a harmonic oscillator.
 
 
 
