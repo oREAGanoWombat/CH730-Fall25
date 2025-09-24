@@ -7,7 +7,7 @@ nav_exclude: False
 
 # The Harmonic Oscillator
 
-The Harmonic Oscillator is the second quantum model we will see which can be solved exactlly. As a rationalization for creating this model, we can determine what is oscillating in a chemical system. The answer is bond between atoms, so we can model vibrations of chemical bonds using the Harmonic Oscillator model.
+The Harmonic Oscillator is the second quantum model we will see which can be solved exactlly. As a rationalization for creating this model, we can determine what is oscillating in a chemical system. The answer is bonds between atoms, so we can model vibrations of chemical bonds using the Harmonic Oscillator model!
 
 ## Classical Harmonic Oscillator
 
