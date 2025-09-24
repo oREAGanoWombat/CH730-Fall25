@@ -101,24 +101,27 @@ $link-color: $red-300;
 }
 
 .side-bar {
-  width: 30%;
-  padding-left: 5%;
+  // Adjusting the width to take up more space
+  width: 25%;
+  // Removing the left padding to eliminate the blank space
+  padding-left: 0%;
 }
 
 .site-header {
-  white-space: normal;
-  flex: 1 1 auto;
-  height: auto;
-  max-height: 100px !important;
-  width: 100% !important;
+  white-space: normal;
+  flex: 1 1 auto;
+  height: auto;
+  max-height: 100px !important;
+  width: 100% !important;
 }
 
 .main {
-  max-width: 90%;
+  // Allowing the main content to take up more space
+  max-width: 100%;
 }
 
 .site-nav {
-  width: 100% !important;
+  width: 100% !important;
 }
 
 .btn.image-caption {
