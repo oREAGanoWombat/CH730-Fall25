@@ -49,9 +49,9 @@ The property of requiring two full rotations to return to its original state is 
 
 The electron's spin quantum number, $$m_s$$, can only take on values of $$+ \frac{1}{2}$$ or $$- \frac{1}{2}$$, which is a direct consequence of the electron being a spinor.
 
-<p align="center"><img src="assets/images/spinor-mobius-strip.png"></p>
+<p align="center"><img src="assets/images/spinor-mobius-strip.png"></p> 
 
-[Image Source](#fn:3){: .btn .image-caption }
+[Image Source](#fn:3){: .btn .image-caption } \
 
 The **Pauli Exclusion Principle**, which states no two electrons can occupy the same quantum state, is built upon the electron's spin. This principle is responsible for the periodic table's structure, the nature of chemical bonds, and the stability of matter itself.
 
