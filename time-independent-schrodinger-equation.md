@@ -49,5 +49,6 @@ $$H=\frac{-ℏ^2}{2m} ∇^2$$
 ---
 
 Page Author: *{{ Natalie Woods }}*
+
 [^1]: Link to broccoli
 [^2]: Link to Eigenfunction and Eigenvalues webpage
