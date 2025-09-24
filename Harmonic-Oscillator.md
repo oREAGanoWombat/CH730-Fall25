@@ -5,11 +5,11 @@ author: Logan Grady
 nav_exclude: False
 ---
 
-#The Harmonic Oscillator
+# The Harmonic Oscillator
 
 The Harmonic Oscillator is the second quantum model we will see which can be solved exactlly. As a rationalization for creating this model, we can determine what is oscillating in a chemical system. The answer is bond between atoms, so we can model vibrations of chemical bonds using the Harmonic Oscillator model.
 
-##Classical Harmonic Oscillator
+## Classical Harmonic Oscillator
 
 First, imagine a mass, $$m$$ , connected to a spring, lying along the x-axis, with the other end of the spring connected to an immovable wall. At equillibrium, the mass will be at a constant value of x, we can set this arbitraily to be the point x=0. However, by pulling the mass in one direction, the spring can be displaced by some amount, $$x$$. The 'restoring' force to return the spring to equilibrium after displacement, $$F_1$$ , is proportional to the displacement, $$x$$, where the proportionality factor is known as the spring constant, $$k_f$$.Also, the restoring force is in the opposite direction of the displacement, so it is negative. We now have:
 
