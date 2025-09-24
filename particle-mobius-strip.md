@@ -16,7 +16,9 @@ $$\Psi(\phi) = \Psi(\phi+2\pi)$$
 
 A Möbius strip is much like a ring in that one full pass around the Möbius strip would result in the particle starting and ending in the same location. The main difference between a Möbius strip and a ring is that the particle would need to travel twice the distance of that in a ring when it is on a Möbius strip for the particle to return to the same location. This is because for a particle to travel the full distance of the Möbius strip, it must travel along both sides of the Möbius strip.
 
-<p align="center"><img src="/assets/images/mobius-strip.jpeg">Image Source[^2]</p>
+<p align:"center"><img src="/assets/images/mobius-strip.jpeg" alt="Image of a Möbius strip, a non-orientable surface with a single side and boundary."></p>
+Image Source[^2]
+{: .label .image-caption }
 
 This means that the wave function must equal itself when we add $$4\pi$$ rather than $$2\pi$$ as seen in the particle on a ring.
 
@@ -35,7 +37,23 @@ For the above statement to hold true, $$4m_l$$ must always equal an even whole n
 $$m_{l} = \ldots ,\frac{-3}{2},-1,\frac{-1}{2},0,\frac{1}{2},1,\frac{3}{2},\ldots$$
 
 ## Why Discuss a Particle on a Möbius Strip?
+The quantum numbers $$m_l$$ described above are unusual in the context of introductory quantum mechanics. However, this quantization is directly related to the concept of **spinors**
 
+> ### What are Spinors?
+> In quantum mechanics, the wave function describes a particle's state. When we rotate a classical object by $$360^{/circ}$$, it returns to its original configuration - one would expect the same to happen to a quantum particle.
+>
+> **Spinors**, on the other hand, require a rotation of $$720^{\circ}$$, two full rotations, to return to its original state. The wave function described above returns to its original state at $$4 \pi$$, or two full rotations, making this wave function a **spinor**. 
+
+### Spinors in Physical Chemistry
+The property of requiring two full rotations to return to its original state is a core characteristic of fermions (electrons, protons, neutrons). This leads to the property of **electron spin**, a purely quantum mechanical angular momentum with no classical equivalent. 
+
+The electron's spin quantum number, $$m_s$$, can only take on values of $$+ \frac{1}{2}$$ or $$- \frac{1}{2}$$, which is a direct consequence of the electron being a spinor.
+
+<p align="center"><img src="assets/images/spinor-mobius-strip.png">Image Source[^3]</p>
+
+The **Pauli Exclusion Principle**, which states no two electrons can occupy the same quantum state, is built upon the electron's spin. This principle is responsible for the periodic table's structure, the nature of chemical bonds, and the stability of matter itself.
+
+By studying a particle on a Möbius strip, you are exploring the mathematical properties of a spinor in a simple, tangible model. This simple model provides a physical basis for understanding why electrons have half-integer spin, a concept that is critical to understanding atomic molecular structure, spectroscopy, and magnetism.
 
 ---
 
@@ -43,3 +61,4 @@ $$m_{l} = \ldots ,\frac{-3}{2},-1,\frac{-1}{2},0,\frac{1}{2},1,\frac{3}{2},\ldot
 
 [^1]: PLACEHOLDER, link to particle on a ring page
 [^2]: https://medium.com/@shengmorni/1963-88a359d2f68b
+[^3]: https://en.wikipedia.org/wiki/Spinor#cite_note-1
