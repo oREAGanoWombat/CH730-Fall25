@@ -2,9 +2,9 @@
 title: Eigenfunction for a Quantum Harmonic Oscillator
 layout: default
 author: Natalie Woods
+nav_exclude: true # excludes file from navigation
 ---
-
-As mentioned in the Harmonic Oscillator page[^1], Schrodinger's equation for a quantum harmonic oscillator is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function. Note $$V$$ is the potential energy function of a harmonic oscillator.
+As mentioned in the Harmonic Oscillator page [^1], Schrodinger's equation for a quantum harmonic oscillator is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function. Note $$V$$ is the potential energy function of a harmonic oscillator.
 
 Thus, with these definitions included, Schrodinger's equation is
 
@@ -18,11 +18,11 @@ where $$y = \frac{x}{\alpha}$$, $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$, a
 
 There are several oddities in this solution that set it apart from the other discussed wave functions, particularly with the presence of $$H_v$$ and $$e^\frac{-y^2}{2}$$. The exact development of this model will not be discussed, but it is important to conceptually understand its terms. The term $$e^\frac{-y^2}{2}$$ represents the Gaussian curve, reflecting the probabilistic nature to the solution of the equation. This is consistent with what we know about quantum mechanics, where certain properties can only be described by probability distributions. $$H_v$$, however, has multiple expressions based on the frequency $$v$$, shown in the table below:
 
-<p align="center"><img src="assets/images/Hermite polynomials.jpg"></p>
+<p align="center"><img src="/assets/images/Hermite polynomials.jpg"></p>
 
 Depending on the value of $$v$$, the order of $$H_v$$ changes accordingly to $$v$$. Specifically, the degree of $$H_v$$ is equal to $$v$$. The image below displays the solutions to $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ with discretely increasing $$v$$.
 
-<p align="center"><img src="assets/images/quantumharmonic solution.jpg"></p>
+<p align="center"><img src="/assets/images/quantumharmonic solution.jpg"></p>
 
 Plotted along with the solutions is the potential energy curve (blue parabola). The wave functions corresponding to even $$v$$ are symmetric with respect to $$y=0$$ and those corresponding to odd $$v$$ are antisymmetric with respect to $$y=0$$. As x approaches 0, the Guassian function approaches 1, and so $$H_v$$ dominates the behavior of the wave funtion near the origin. However, as x approaches infinity, the dampening effect of the Gaussian funtion is dominant, forcing the function to approach zero. 
 
@@ -59,9 +59,3 @@ As we can see, the eigenvalue, $$E_0$$, is
 $$E_0 = \frac{1}{2} \hslash \omega$$
 
 This result is consistent with the permissable energy levels of a quantum harmonic oscillator, delineated by $$E_v = (v + \frac{1}{2})ℏ\omega$$. Thus, it follows that $$\psi_0$$, determined with the usage of hermite polynomials, is a solution to Schrodinger's equation for a harmonic oscillator.
-
----
-
-Page Author: {{ .page-author }}
-
-[^1]: PLACEHOLDER, link to harmonic oscillator page
