@@ -16,7 +16,8 @@ $$\Psi(\phi) = \Psi(\phi+2\pi)$$
 
 A Möbius strip is much like a ring in that one full pass around the Möbius strip would result in the particle starting and ending in the same location. The main difference between a Möbius strip and a ring is that the particle would need to travel twice the distance of that in a ring when it is on a Möbius strip for the particle to return to the same location. This is because for a particle to travel the full distance of the Möbius strip, it must travel along both sides of the Möbius strip.
 
-<p align:"center"><img src="/assets/images/mobius-strip.jpeg" alt="Image of a Möbius strip, a non-orientable surface with a single side and boundary."></p>
+<p align:"center"><img src="assets/images/mobius-strip.jpeg" alt="Image of a Möbius strip, a non-orientable surface with a single side and boundary."></p>
+
 Image Source[^2]
 {: .label .image-caption }
 
@@ -50,6 +51,11 @@ The property of requiring two full rotations to return to its original state is 
 The electron's spin quantum number, $$m_s$$, can only take on values of $$+ \frac{1}{2}$$ or $$- \frac{1}{2}$$, which is a direct consequence of the electron being a spinor.
 
 <p align="center"><img src="assets/images/spinor-mobius-strip.png">Image Source[^3]</p>
+
+<p align="center"><img src="assets/images/spinor-mobius-strip.png"></p>
+
+Image Source[^3]
+{: .label .image-caption }
 
 The **Pauli Exclusion Principle**, which states no two electrons can occupy the same quantum state, is built upon the electron's spin. This principle is responsible for the periodic table's structure, the nature of chemical bonds, and the stability of matter itself.
 
