@@ -53,9 +53,6 @@ The electron's spin quantum number, $$m_s$$, can only take on values of $$+ \fra
 
 [Image Source](#fn:3){: .btn .image-caption }
 
-Image Source[^3]
-{: .label .image-caption }
-
 The **Pauli Exclusion Principle**, which states no two electrons can occupy the same quantum state, is built upon the electron's spin. This principle is responsible for the periodic table's structure, the nature of chemical bonds, and the stability of matter itself.
 
 By studying a particle on a Möbius strip, you are exploring the mathematical properties of a spinor in a simple, tangible model. This simple model provides a physical basis for understanding why electrons have half-integer spin, a concept that is critical to understanding atomic molecular structure, spectroscopy, and magnetism.
