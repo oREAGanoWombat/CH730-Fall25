@@ -81,9 +81,9 @@ $$\frac{-\hbar^{2}}{2m}\nabla^{2} \Psi (x) + V(x) \Psi (x) = E \Psi (x)$$
 
 We have already sovled for the potential energy, so now we need to determine what our wavefunctions are. Utilizing the power series method for solving differential equations and the postulates of quantum mechanics, the eigenfunctions of the hamiltonian (wavefunctions) are given by:
 
-$$\psi_{v}(x)=N_{v}H{v}(y)e^{\frac{-y^{2}}{2}}&&
+$$\psi_{v}(x)=N_{v}H{v}(y)e^{\frac{-y^{2}}{2}}$$
 
-Where &&v&& is a new quantum number that can be any whole number (ie. 0,1,2,3,...), $$N_{v}$$ is a normalization constant given by $$N_{v}=(\alpha \sqrt{\pi}2^{v}v!)^{\frac{-1}{2}}$$ , $$y=\frac{x}{\alpha}, $$H_{v}$$ is the Hermite Polynomial for a give value of $$v$$, and, finally, $$\alpha=(\frac{\hbar^{2}}{mk_{f}})^{\frac{1}{4}}$$
+Where &&v&& is a new quantum number that can be any whole number (ie. 0,1,2,3,...), $$N_{v}$$ is a normalization constant given by $$N_{v}=(\alpha \sqrt{\pi}2^{v}v!)^{\frac{-1}{2}}$$ , $$y=\frac{x}{\alpha}$$, $$H_{v}$$ is the Hermite Polynomial for a give value of $$v$$, and, finally, $$\alpha=(\frac{\hbar^{2}}{mk_{f}})^{\frac{1}{4}}$$
 
 The quantized energy is given by:
 
