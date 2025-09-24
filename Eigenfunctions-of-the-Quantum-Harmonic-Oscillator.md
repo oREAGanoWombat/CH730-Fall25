@@ -2,8 +2,8 @@
 title: Eigenfunction for a Quantum Harmonic Oscillator
 layout: default
 author: Natalie Woods
-nav_exclude: true # excludes file from navigation
 ---
+
 As mentioned in the Harmonic Oscillator page[^1], Schrodinger's equation for a quantum harmonic oscillator is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function. Note $$V$$ is the potential energy function of a harmonic oscillator.
 
 Thus, with these definitions included, Schrodinger's equation is
