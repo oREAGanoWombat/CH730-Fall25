@@ -34,7 +34,8 @@ For the above statement to hold true, $$4m_l$$ must always equal an even whole n
 
 $$m_{l} = \ldots ,\frac{-3}{2},-1,\frac{-1}{2},0,\frac{1}{2},1,\frac{3}{2},\ldots$$
 
-> As a note for future reference: $$^{1}H$$ has spin-1/2 quantum number, which falls in the conditions for the quantum number of a particle on a Möbius strip.
+## Why Discuss a Particle on a Möbius Strip?
+
 
 ---
 
