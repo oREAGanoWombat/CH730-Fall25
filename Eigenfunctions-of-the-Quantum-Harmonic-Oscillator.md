@@ -4,13 +4,20 @@ layout: default
 author: Natalie Woods
 nav_exclude: true # excludes file from navigation
 ---
-As mentioned in the Harmonic Oscillator page [^1], Schrodinger's equation for a quantum harmonic oscillator is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function. Note $$V$$ is the potential energy function of a harmonic oscillator.
+
+# Eigenfunction for a Quantum Harmonic Oscillator
+In this section, we will state and discuss the solution of wave function for the quantum harmonic oscillator. Afterwards, it will be proven by applying the solution to Schrodinger's equation and prove that the associated eigenvalue, $$E$$, is in accordance with the well-known and established energy values of the system. We will begin by declaring Schrodinger's equation.
+
+### Schrodinger Equation for a Quantum Harmonic Oscillator
+Mentioned previously in the Harmonic Oscillator section [^1], Schrodinger's equation for a quantum harmonic oscillator is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function. Note $$V$$ is the potential energy function of a harmonic oscillator.
 
 Thus, with these definitions included, Schrodinger's equation is
 
 $$\frac{-ℏ^2}{2m} ∇^2\psi + \frac{1}{2}kx^2\psi= E\psi$$
 
-It has been determined that the energies permitted by the boundary conditions for Schrodinger's equation for an oscillator are $$E_v = (v + \frac{1}{2})ℏ\omega$$, where $$\omega=\sqrt{\frac{k_f}{m}}$$. We will later use this fact to prove that the precise solution to Schrodinger's Equation for a quantum harmonic oscillator is
+### Definition and Discussion of the Eigenfunction for Harmonic Oscillator
+
+It has been determined that the energies permitted by the boundary conditions for Schrodinger's equation for an oscillator are $$E_v = (v + \frac{1}{2})ℏ\omega$$ [^1], where $$\omega=\sqrt{\frac{k_f}{m}}$$. We will later use this fact to prove that the precise solution to Schrodinger's Equation for a quantum harmonic oscillator is
 
 $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$
 
@@ -26,6 +33,7 @@ Depending on the value of $$v$$, the order of $$H_v$$ changes accordingly to $$v
 
 Plotted along with the solutions is the potential energy curve (blue parabola). The wave functions corresponding to even $$v$$ are symmetric with respect to $$y=0$$ and those corresponding to odd $$v$$ are antisymmetric with respect to $$y=0$$. As x approaches 0, the Guassian function approaches 1, and so $$H_v$$ dominates the behavior of the wave funtion near the origin. However, as x approaches infinity, the dampening effect of the Gaussian funtion is dominant, forcing the function to approach zero. 
 
+### Proof of the Eigenfunction Solution
 To verify that the solutions are correct we will evaluate the solution at ground state ($$v=0$$). Afterwards, we can determine $$E_0$$ and evaluate its consistency with the expected energy level for a quantum harmon oscillator $$E_v = (v + \frac{1}{2})ℏ\omega$$.
 
 Thus, upon substituting $$H_v$$ with the corresponding polynomial at $$v=0$$, $$H_0 = 1$$, and subtituting $$y = \frac{x}{\alpha}$$, $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ becomes
@@ -59,3 +67,10 @@ As we can see, the eigenvalue, $$E_0$$, is
 $$E_0 = \frac{1}{2} \hslash \omega$$
 
 This result is consistent with the permissable energy levels of a quantum harmonic oscillator, delineated by $$E_v = (v + \frac{1}{2})ℏ\omega$$. Thus, it follows that $$\psi_0$$, determined with the usage of hermite polynomials, is a solution to Schrodinger's equation for a harmonic oscillator.
+
+---
+
+Page Author: *{{ Natalie Woods }}*
+
+[^1]: Link to Quantum Harmonc Oscillator
+[^2]: Link to Eigenfunction and Eigenvalues webpage
