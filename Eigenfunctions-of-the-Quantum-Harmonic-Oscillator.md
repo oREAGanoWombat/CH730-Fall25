@@ -23,7 +23,8 @@ $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$
 
 where $$y = \frac{x}{\alpha}$$, $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$, and $$N_v$$ is the normalization constant $$N_v =\frac{1}{\alpha\pi^\frac{1}{2}2^vv!}$$
 
-There are several oddities in this solution that set it apart from the other discussed wave functions, particularly with the presence of $$H_v$$ and $$e^\frac{-y^2}{2}$$. The exact development of this model will not be discussed, but it is important to conceptually understand its terms. The term $$e^\frac{-y^2}{2}$$ represents the Gaussian curve, reflecting the probabilistic nature to the solution of the equation. This is consistent with what we know about quantum mechanics, where certain properties can only be described by probability distributions. $$H_v$$, however, has multiple expressions based on the frequency $$v$$, shown in the table below:
+There are several oddities in this solution that set it apart from the other discussed wave functions, particularly with the presence of $$H_v$$ and $$e^\frac{-y^2}{2}.$$ The exact development of this model will not be discussed, but we will elaborate on the meanings of $$H_v$$ and $$e^\frac{-y^2}{2}$$.
+The term $$e^\frac{-y^2}{2}$$ represents the Gaussian curve, reflecting the probabilistic nature to the solution of the equation. $$H_v$$, however, has multiple expressions based on the frequency $$v$$, shown in the table below:
 
 <p align="center"><img src="/assets/images/Hermite polynomials.jpg"></p>
 
@@ -34,13 +35,13 @@ Depending on the value of $$v$$, the order of $$H_v$$ changes accordingly to $$v
 Plotted along with the solutions is the potential energy curve (blue parabola). The wave functions corresponding to even $$v$$ are symmetric with respect to $$y=0$$ and those corresponding to odd $$v$$ are antisymmetric with respect to $$y=0$$. As x approaches 0, the Guassian function approaches 1, and so $$H_v$$ dominates the behavior of the wave funtion near the origin. However, as x approaches infinity, the dampening effect of the Gaussian funtion is dominant, forcing the function to approach zero. 
 
 ### Proof of the Eigenfunction Solution
-To verify that the solutions are correct we will evaluate the solution at ground state ($$v=0$$). Afterwards, we can determine $$E_0$$ and evaluate its consistency with the expected energy level for a quantum harmon oscillator $$E_v = (v + \frac{1}{2})ℏ\omega$$.
+To verify that the solutions are correct we will evaluate the solution at ground state ($$v=0$$). Afterwards, we can determine the eigenvalue $$E_0$$ and evaluate its consistency with the expected energy level for a quantum harmon oscillator $$E_v = (v + \frac{1}{2})ℏ\omega$$.
 
-Thus, upon substituting $$H_v$$ with the corresponding polynomial at $$v=0$$, $$H_0 = 1$$, and subtituting $$y = \frac{x}{\alpha}$$, $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ becomes
+Upon substituting $$H_v$$ with the corresponding polynomial at $$v=0$$, $$H_0 = 1$$, and subtituting $$y = \frac{x}{\alpha}$$, the solution $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ becomes
 
 $$\psi_0(x) = N_0(x)e^\frac{-x^2}{2\alpha^2}$$
 
-We then must compute the double derivative of $$\psi_0(x)$$ to easily plug it into the schrodinger equation.
+To apply the solution to the Hamiltonian of the Schrodinger's equation, we then must compute $$\frac{d^2}{dx^2}\psi_0(x)$$
 
 $$\frac{d^2}{dx^2}\psi_0(x) = \frac{d^2}{dx^2}[N_0(x)e^\frac{-x^2}{2\alpha^2}]$$
 
@@ -73,4 +74,3 @@ This result is consistent with the permissable energy levels of a quantum harmon
 Page Author: *{{ Natalie Woods }}*
 
 [^1]: Link to Quantum Harmonc Oscillator
-[^2]: Link to Eigenfunction and Eigenvalues webpage
