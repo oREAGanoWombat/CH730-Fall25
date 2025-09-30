@@ -1,0 +1,43 @@
+<!--
+This Jekyll Include creates the HTML structure for a single headshot item.
+It uses parameters passed during the include call (e.g., image, name, role).
+-->
+<div class="headshot-item">
+    <!-- Placeholder image URL for demonstration. Replace with your actual path, e.g., /assets/images/jane_doe.jpg -->
+    <img
+            src="{{ include.image_url | default: 'https://placehold.co/150x150/94A3B8/F8FAFC?text=Coming+Soon!' }}"
+            alt="Headshot of {{ include.name | default: 'Site Editor' }}"
+            class="headshot-image"
+    >
+    <h3 class="headshot-name">{{ include.name | default: "Name Placeholder" }}</h3>
+    <p class="headshot-role">{{ include.role | default: "Role Placeholder" }}</p>
+
+    <!-- 1. Optional Degree/Affiliation Line -->
+    {% if include.division %}
+    <p class="headshot-division">{{ include.division }}</p>
+    {% endif %}
+
+    <!-- 2. Optional Social Media Links -->
+    {% if include.github_url or include.linkedin_url %}
+    <div class="headshot-social">
+        {% if include.github_url %}
+        <a href="{{ include.github_url }}" target="_blank" title="GitHub Profile" class="social-link github">
+            <!-- GitHub SVG Logo -->
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" style="width: 1em; height: 1em; fill: currentColor;">
+                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-4.9c-3-.7-5.6 0-6.2 2zm35.7 6.4c-.6 2.1-1.3 4-2.6 5.7.2.2.5.4.9.5 1.1.2 2.3-.2 3.4-.9.7-.5 1.4-.9 2.2-1.2h.1c-.2-1.7-.5-3.5-.9-5.1-.9.6-1.7 1.1-2.6 1.6zm-18.7 5.9c.7 2.3 4.3 4.7 6.9 3.6 2.2-.9 3.4-3.5 2.5-5.3-1-.7-3.6-.9-5.8 0-2.4 1-3.6 3.3-3.6 5.4zm101.4-.1c.9 1.7.5 4-1.1 5.2-2 1.3-4.4 1.2-5.9-.6-1.3-1.6-1.2-3.8.3-5.3 1.6-1.4 3.9-1.2 5.9.7zm-26.6-13.8c.4 1.3.4 2.8-.2 4.2-1.2 2.6-3.7 3.7-5.9 2.6-2.2-1.1-3.4-3.7-2.6-6 1-.7 3.3-.8 5.6-.2 2.4 1 3.5 3.3 3.5 5.6zm10.5 4.9c-.3 1.3-1.4 2.4-2.7 2.8-1.4.2-2.8-.2-3.5-1.5-.7-1.4 0-3.3 1.7-3.9 1.3-.4 2.8 0 3.8 1.1.9 1.1 1.2 2.7.7 3.8zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.3 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-18.5-1.5-18.9 0 0 24.9 2 38.6 24.7 0 0 22.3 37.4 66.4 25.2 0 0 13.3-24.4 13.3-46.7 0-33.4-12.7-50.6-35.8-57.7 0 0 66.3-5.2 66.3-149.3 0-21.3-3-46.7-10.4-66 0 0 21.6-6.6 70.4 24 0 0 16.2-4.2 32.5-4.2s16.3 0 32.5 4.2c48.8-30.6 70.4-24 70.4-24 10 20.3 13.7 45.7 13.7 66 0 94.7-66.3 149.3-66.3 149.3 23 7.1 35.8 24.3 35.8 57.7 0 22.3 0 43.1 0 46.7 0 6.7 4.5 14.7 17.3 12.3C426.2 457.8 496 362.8 496 252 496 113.3 383.5 8 244.8 8zM362.9 390.4c-.6 2.1-1.3 4-2.6 5.7.2.2.5.4.9.5 1.1.2 2.3-.2 3.4-.9.7-.5 1.4-.9 2.2-1.2h.1c-.2-1.7-.5-3.5-.9-5.1-.9.6-1.7 1.1-2.6 1.6z"/>
+            </svg>
+        </a>
+        {% endif %}
+
+        {% if include.linkedin_url %}
+        <a href="{{ include.linkedin_url }}" target="_blank" title="LinkedIn Profile" class="social-link linkedin">
+            <!-- LinkedIn SVG Logo -->
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 1em; height: 1em; fill: currentColor;">
+                <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.4V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5s17.2-38.5 38.5-38.5 38.5 17.3 38.5 38.5-17.2 38.5-38.5 38.5zm254.2 243h-65.7V311.9c0-23.8-.4-54.3-33-54.3-33 0-38.2 25.8-38.2 52.6V416h-65.7V202.2h62.9v28.4h.8c8.8-16.8 30.5-34.5 62.4-34.5 66.5 0 78.7 43.9 78.7 101.9V416z"/>
+            </svg>
+        </a>
+        {% endif %}
+    </div>
+    {% endif %}
+
+</div>

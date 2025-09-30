@@ -93,6 +93,12 @@ $link-color: $red-300;
   margin: 0;
 }
 
+.label.centered {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .label.image-caption {
   background-color: $blue-300;
   color: $grey-dk-100;
@@ -125,4 +131,80 @@ $link-color: $red-300;
   background-color: $grey-dk-000;
   float: right;
   font-size: $font-size-1;
+}
+
+// --- Headshot Gallery CSS ---
+
+/* 1. Container for all headshots. Uses Flexbox for wrapping. */
+.headshot-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the entire row of items */
+  gap: 2rem; /* Space between each headshot item */
+  padding: 2rem 0;
+}
+
+/* 2. Individual headshot item container */
+.headshot-item {
+  text-align: center;
+  width: auto;
+  flex-shrink: 0; /* Prevents the item from shrinking too much */
+}
+
+/* 3. Image styling (making it round and cropped) */
+.headshot-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  border-radius: 5px;
+  border: 3px solid $grey-dk-200; /* Border using theme color */
+  margin-bottom: -1rem;
+  box-shadow: 0 4px 8px $grey-dk-100;
+}
+
+/* 4. Text styling */
+.headshot-name {
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+  margin-top: -1rem;
+  color: $grey-dk-300;
+}
+
+.headshot-role {
+  font-size: 0.9em;
+  color: $grey-dk-300;
+  margin-bottom: -1rem;
+}
+
+/* 5. Responsive adjustment: Allow more columns on wider screens */
+@media (min-width: 900px) {
+  .headshot-gallery {
+    justify-content: space-evenly; /* Evenly space items on large screens */
+  }
+}
+
+// --- NEW STYLES FOR OPTIONAL HEADSHOT FIELDS ---
+
+.headshot-degree {
+  font-size: 0.7em;
+  color: $grey-dk-200;
+  margin: -1rem 0 -1rem 0;
+}
+
+.headshot-social {
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center; /* Center the icons within the item */
+  gap: 10px;
+}
+
+.social-link {
+  text-decoration: none;
+  font-size: 1.4em; /* Adjust icon size */
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-link:hover {
+  transform: scale(1.15);
 }

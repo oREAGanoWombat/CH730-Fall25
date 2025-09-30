@@ -15,16 +15,54 @@ Browse Topics
 [Eigenfunctions and Eigenvalues](Eigenfunctions-and-Eigenvalues.html){: .btn } \
 [Time-Independent Schrodinger Equation](time-independent-schrodinger-equation.html){: .btn } \
 [Free Particle and Momentum Operator](free-particle-and-momentum-operator.html){: .btn } \
-[One-Dimensional Particle in a Box](1D-Particle-in-a-Box.html){: .btn } 
+[One-Dimensional Particle in a Box](1D-Particle-in-a-Box.html){: .btn } \
+[Classical Vibration](Classical-Vibration.html){: .btn } \
+[Quantum Harmonic Oscillator](Harmonic-Oscillator.html){: .btn } \
+[Eigenfunctions of the Quantum Harmonic Oscillator](Eigenfunctions-of-the-Quantum-Harmonic-Oscillator.html){: .btn } \
+[Particle in a Ring](Particle-In-A-Ring.html){: .btn } \
+[Particle on a Mobius Strip](particle-mobius-strip.html){: .btn } 
 
 Coming Soon!
 {: .label .label-yellow .section-label }
 
-- [ ] Classical Vibration
-- [ ] Quantum Harmonic Oscillator
-- [ ] Eigenfunctions of the Quantum Harmonic Oscillator
-- [ ] Particle in a Ring
-- [ ] Particle on a Mobius Strip
+- [x] Classical Vibration
+- [x] Quantum Harmonic Oscillator
+- [x] Eigenfunctions of the Quantum Harmonic Oscillator
+- [x] Particle in a Ring
+- [x] Particle on a Mobius Strip
+
+---
+
+Meet the Team!
+{: .label .label-red .section-label .centered }
+
+<div class="headshot-gallery">
+{% include headshot_gallery.html
+    image_url="assets/images/headshots/Thomas-SQUARE.jpg"
+    name="Dr. Thomas Theis"
+    role="Course Instructor"
+%}
+{% include headshot_gallery.html
+    name="Logan Grady"
+    role="Graduate Student"
+%}
+{% include headshot_gallery.html
+    name="Hans Kindstedt"
+    role="Graduate Student"
+%}
+{% include headshot_gallery.html
+    image_url="assets/images/headshots/RMW-Headshot.jpg"
+    name="Reagan McNeill Womack"
+    role="Graduate Student"
+    division="Chemistry"
+    github_url="https://github.com/oREAGanoWombat"
+    linkedin_url="https://www.linkedin.com/in/oreaganowombat"
+%}
+{% include headshot_gallery.html
+    name="Natalie Woods"
+    role="Graduate Student"
+%}
+</div>
 
 ---
 
