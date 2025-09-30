@@ -95,3 +95,7 @@ E_{v}&=h \nu (v + \frac{1}{2}) \\
 Where $$\omega=\sqrt{\frac{k_{f}}{m}}$$
 
 Here, we see that when the quantum number $$v$$ is equal to zero, the system still has energy; this is known as the zero-point energy and it is a stark contrast to the Particle in a Box quantized energy, wherein the quantum number $$n$$ could not be equal to zero. Additionally, we can see that the spacing between energy levels is constant, since as $$v$$ increases, $$E_{v}$$ will increase linearly. This is also different than the PIB energy, where there was a square dependence on the quantum number $$n$$ and the spacing between energy levels increased. 
+
+---
+
+Page Author: *{{ page.author }}
