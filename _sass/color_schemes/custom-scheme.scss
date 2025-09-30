@@ -130,7 +130,8 @@ $link-color: $red-300;
 .btn.image-caption {
   background-color: $grey-dk-000;
   float: right;
-  font-size: $font-size-1;
+  font-size: $font-size-2;
+  display: block;
 }
 
 // --- Headshot Gallery CSS ---
@@ -207,4 +208,8 @@ $link-color: $red-300;
 
 .social-link:hover {
   transform: scale(1.15);
+}
+
+.hidden {
+  visibility: hidden;
 }

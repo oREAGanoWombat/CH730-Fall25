@@ -18,8 +18,10 @@ A Möbius strip is much like a ring in that one full pass around the Möbius str
 
 <p align="center"><img src="assets/images/mobius-strip.jpeg" alt="Image of a Möbius strip, a non-orientable surface with a single side and boundary."></p>
 
-[Image Source](#fn:2){: .btn .image-caption }
+Source[^2]
+{: .hidden }
 
+[Image Source](#fn:2){: .btn .image-caption .image-source-button } \
 This means that the wave function must equal itself when we add $$4\pi$$ rather than $$2\pi$$ as seen in the particle on a ring.
 
 $$\Psi(\phi) = \Psi(\phi+4\pi)$$
@@ -51,8 +53,10 @@ The electron's spin quantum number, $$m_s$$, can only take on values of $$+ \fra
 
 <p align="center"><img src="assets/images/spinor-mobius-strip.png"></p> 
 
-[Image Source](#fn:3){: .btn .image-caption } \
+Source[^3]
+{: .hidden }
 
+[Image Source](#fn:3){: .btn .image-caption } \
 The **Pauli Exclusion Principle**, which states no two electrons can occupy the same quantum state, is built upon the electron's spin. This principle is responsible for the periodic table's structure, the nature of chemical bonds, and the stability of matter itself.
 
 By studying a particle on a Möbius strip, you are exploring the mathematical properties of a spinor in a simple, tangible model. This simple model provides a physical basis for understanding why electrons have half-integer spin, a concept that is critical to understanding atomic molecular structure, spectroscopy, and magnetism.
@@ -61,6 +65,6 @@ By studying a particle on a Möbius strip, you are exploring the mathematical pr
 
 *Page Author: {{ page.author }}*
 
-[^1]: PLACEHOLDER, link to particle on a ring page
-[^2]: https://medium.com/@shengmorni/1963-88a359d2f68b
-[^3]: https://en.wikipedia.org/wiki/Spinor#cite_note-1
+[^1]: [Particle on a Ring](http://localhost:4000/Particle-In-A-Ring.html)
+[^2]: [Möbius Strip Image](https://medium.com/@shengmorni/1963-88a359d2f68b)
+[^3]: [Spinor Image](https://en.wikipedia.org/wiki/Spinor#cite_note-1)
