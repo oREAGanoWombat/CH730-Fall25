@@ -19,8 +19,8 @@ Browse Topics
 [Classical Vibration](Classical-Vibration.html){: .btn } \
 [Quantum Harmonic Oscillator](Harmonic-Oscillator.html){: .btn } \
 [Eigenfunctions of the Quantum Harmonic Oscillator](Eigenfunctions-of-the-Quantum-Harmonic-Oscillator.html){: .btn } \
-[Particle in a Ring](Particle-In-A-Ring.html){: .btn } \
-[Particle on a Mobius Strip](particle-mobius-strip.html){: .btn } 
+[Particle on a Ring](Particle-In-A-Ring.html){: .btn } \
+[Particle on a Möbius Strip](particle-mobius-strip.html){: .btn } 
 
 Coming Soon!
 {: .label .label-yellow .section-label }
