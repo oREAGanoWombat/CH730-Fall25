@@ -67,6 +67,6 @@ $$\frac{d^2}{dx^2} = \nabla^2$$
 
 confirms that this is a reasonable match to classical physics  
 
-$$\frac{p^2}{2m} = H = -\frac{\hbar^2}{2m} \nabla^2$$  
+$$\frac{\rho^2}{2m} = H = -\frac{\hbar^2}{2m} \nabla^2$$  
 
 ---
