@@ -43,12 +43,16 @@ Meet the Team!
     role="Course Instructor"
 %}
 {% include headshot_gallery.html
+    image_url="assets/images/headshots/Logan-Headshot.jpg"
     name="Logan Grady"
     role="Graduate Student"
+    division="Chemistry"
 %}
 {% include headshot_gallery.html
+    image_url="assets/images/headshots/Hans-Headshot.jpg"
     name="Hans Kindstedt"
     role="Graduate Student"
+    division="Chemistry"
 %}
 {% include headshot_gallery.html
     image_url="assets/images/headshots/RMW-Headshot.jpg"
@@ -59,7 +63,14 @@ Meet the Team!
     linkedin_url="https://www.linkedin.com/in/oreaganowombat"
 %}
 {% include headshot_gallery.html
+    image_url="assets/images/headshots/Natalie-Headshot.png"
     name="Natalie Woods"
+    role="Graduate Student"
+    division="Chemistry"
+%}
+{% include headshot_gallery.html
+    image_url="assets/images/headshots/Juliette-Headshot.png"
+    name="Juliette"
     role="Graduate Student"
 %}
 </div>

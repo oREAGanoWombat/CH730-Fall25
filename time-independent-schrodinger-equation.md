@@ -48,5 +48,5 @@ $$H=\frac{-ℏ^2}{2m} ∇^2$$
 
 ---
 
-[^1]: Link to broccoli
-[^2]: Link to Eigenfunction and Eigenvalues webpage
+[^1]: [de Broglie Relation](de-broglie-relation.html)
+[^2]: [Eigenfunctions and Eigenvalues](Eigenfunctions-and-Eigenvalues.html)

@@ -242,6 +242,8 @@ Several custom horizontal rules have been defined for this website, below is wha
 > This text is **DKGREY** highlighted in **AQUA**
 > {: .aqua .dkgrey-text .inline-display }
 
+<p class="dkgrey-text inline-display">Using HTML, you can <span class="aqua">HIGHLIGHT</span> select words</p>
+
 ```markdown
 This is some **RED** text
 {: .red-text }
@@ -253,6 +255,8 @@ Using the **INLINE-DISPLAY** class, we can prevent the background from taking up
 
 This text is **DKGREY** highlighted in **AQUA**
 {: .aqua .dkgrey-text .inline-display }
+
+<p class="dkgrey-text inline-display">Using HTML, you can <span class="aqua">HIGHLIGHT</span> select words</p>
 ```
 
 ---
