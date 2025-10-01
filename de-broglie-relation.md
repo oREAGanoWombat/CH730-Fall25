@@ -59,5 +59,3 @@ $$p=\frac{h}{\lambda}$$
 > This relation only becomes meaningful for very small objects (such as particles) as it breaks classical mechanics. Wavelengths of tangible objects are so small that they aren't relevant to consider when determining momentum.
 
 ---
-
-*Page Author: {{ page.author }}*

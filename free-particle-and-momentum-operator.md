@@ -70,5 +70,3 @@ confirms that this is a reasonable match to classical physics
 $$\frac{p^2}{2m} = H = -\frac{\hbar^2}{2m} \nabla^2$$  
 
 ---
-
-*Page Author: {{ page.author }}*

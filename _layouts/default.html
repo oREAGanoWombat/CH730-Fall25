@@ -7,26 +7,28 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}" class="no-js">
 {% include head.html %}
 <body class="{% if site.search_enabled %}site-search-enabled{% endif %}">
-{% include header.html %}
-<div class="wrapper">
-    {% include sidebar.html %}
-    <div class="main" id="top">
-        {% include feedback.html %}
-        <div class="main-content">
-            {% include hook_before_content_top.html %}
-            {{ content }}
-            {% include hook_after_content_bottom.html %}
+    <div class="wrapper">
+        {% include components/sidebar.html %}
+        <div class="main" id="top">
+            <div class="main-content">
+                {% include hook_before_content_top.html %}
+                {{ content }}
+                {% include hook_after_content_bottom.html %}
 
-            <!-- INJECT THE NEW NAVIGATION BUTTONS HERE -->
-            <!-- Check if the current page is NOT the home page (which has the URL '/') -->
-            {% if page.url != "/" %}
-            {% include next_prev_buttons.html %}
-            {% endif %}
+                <!-- INJECT THE NEW NAVIGATION BUTTONS HERE -->
+                <!-- Check if the current page is NOT the home page (which has the URL '/') -->
+                {% if page.url != "/" %}
+                <footer class="page-footer">
+                    <p class="page-author">Page Author: <em class="page-author name">{{ page.author }}</em></p>
+                    {% include next_prev_buttons.html %}
+                </footer>
 
-            {% include footer.html %}
+                {% endif %}
+
+                {% include components/footer.html %}
+            </div>
+            {% include script.html %}
         </div>
-        {% include script.html %}
     </div>
-</div>
 </body>
 </html>

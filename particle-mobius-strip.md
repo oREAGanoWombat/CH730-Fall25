@@ -63,8 +63,6 @@ By studying a particle on a Möbius strip, you are exploring the mathematical pr
 
 ---
 
-*Page Author: {{ page.author }}*
-
 [^1]: [Particle on a Ring](http://localhost:4000/Particle-In-A-Ring.html)
 [^2]: [Möbius Strip Image](https://medium.com/@shengmorni/1963-88a359d2f68b)
 [^3]: [Spinor Image](https://en.wikipedia.org/wiki/Spinor#cite_note-1)

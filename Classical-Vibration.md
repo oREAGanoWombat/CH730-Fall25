@@ -49,5 +49,3 @@ $$V=\frac{1}{2}k_{f}x^{2}$$
 
 
 ---
-
-*Page Author: {{ page.author }}*

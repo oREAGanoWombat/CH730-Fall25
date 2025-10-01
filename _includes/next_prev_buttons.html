@@ -34,7 +34,7 @@ order defined in _data/nav_order.yml.
     <div class="prev-button">
         {% if prev_index >= 0 %}
         {% assign prev_page = pages[prev_index] %}
-        <a href="{{ prev_page.url | relative_url }}" class="btn btn-purple">
+        <a href="{{ prev_page.url | relative_url }}" class="btn btn-grey footer-nav-button">
             <!-- Chevron icon (left) -->
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 0.5rem; vertical-align: -0.125em;">
                 <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
@@ -51,7 +51,7 @@ order defined in _data/nav_order.yml.
     <div class="next-button">
         {% if next_index < pages.size %}
         {% assign next_page = pages[next_index] %}
-        <a href="{{ next_page.url | relative_url }}" class="btn btn-purple">
+        <a href="{{ next_page.url | relative_url }}" class="btn btn-grey footer-nav-button">
             (Next) {{ next_page.title }}
             <!-- Chevron icon (right) -->
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-left: 0.5rem; vertical-align: -0.125em;">

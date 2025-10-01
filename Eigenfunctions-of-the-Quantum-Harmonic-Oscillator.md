@@ -71,6 +71,4 @@ This result is consistent with the permissable energy levels of a quantum harmon
 
 ---
 
-Page Author: *{{ page.author }}*
-
 [^1]: Link to Quantum Harmonc Oscillator

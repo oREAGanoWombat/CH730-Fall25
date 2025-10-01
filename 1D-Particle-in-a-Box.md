@@ -143,9 +143,6 @@ $$\psi(x)=\sqrt{\frac{2}{L}}\sin(\frac{n\pi x}{L}) \hspace{1cm} n \in \mathbb{Z}
 
 ---
 
-*Page Author: {{ page.author }}*
-
-
 
 
 

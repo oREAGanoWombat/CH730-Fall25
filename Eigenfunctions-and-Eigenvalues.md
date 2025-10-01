@@ -26,5 +26,3 @@ Just as before, the original function returns when the double derivative operato
 
 
 ---
-
-*Page Author: {{ page.author }}*

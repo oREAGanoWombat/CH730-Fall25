@@ -134,6 +134,14 @@ $link-color: $red-300;
   display: block;
 }
 
+.btn-grey {
+  @include btn-color($grey-dk-300, $grey-dk-100);
+}
+
+.btn.footer-nav-button {
+  margin: 10px;
+}
+
 // --- Headshot Gallery CSS ---
 
 /* 1. Container for all headshots. Uses Flexbox for wrapping. */

@@ -42,5 +42,3 @@ $$\begin{align}
 \end{align}$$
 
 ---
-
-*Page Author: {{ page.author }}*

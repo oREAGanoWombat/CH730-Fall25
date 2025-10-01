@@ -97,5 +97,3 @@ $$m_{l} = ..., -2, -1, 0, 1, 2, ...$$
 This shows that \(m_{l}\) is a quantum number and demonstrates the quantization of the particle on a ring.  
 
 ---
-
-*Page Author: {{ page.author }}*

@@ -18,7 +18,4 @@ $$Isolated \ math \ looks \ like \ this \ y=2x^{2}$$
 In-line math looks like this $$y=2x^{2}$$.
 
 ---
-<!--- do not edit anything below this line --->
-*Page Author: {{ page.author }}*
-
 <!--- add footnotes here --->
