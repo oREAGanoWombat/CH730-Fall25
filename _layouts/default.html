@@ -1,0 +1,32 @@
+---
+layout: compress
+---
+
+<!-- This file overrides the default layout to insert custom navigation. -->
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" class="no-js">
+{% include head.html %}
+<body class="{% if site.search_enabled %}site-search-enabled{% endif %}">
+{% include header.html %}
+<div class="wrapper">
+    {% include sidebar.html %}
+    <div class="main" id="top">
+        {% include feedback.html %}
+        <div class="main-content">
+            {% include hook_before_content_top.html %}
+            {{ content }}
+            {% include hook_after_content_bottom.html %}
+
+            <!-- INJECT THE NEW NAVIGATION BUTTONS HERE -->
+            <!-- Check if the current page is NOT the home page (which has the URL '/') -->
+            {% if page.url != "/" %}
+            {% include next_prev_buttons.html %}
+            {% endif %}
+
+            {% include footer.html %}
+        </div>
+        {% include script.html %}
+    </div>
+</div>
+</body>
+</html>
