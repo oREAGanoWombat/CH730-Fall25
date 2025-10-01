@@ -66,4 +66,6 @@ Meet the Team!
 
 ---
 
+[Click Here for Styling Examples](Components-Example.html){: .btn .btn-blue }
+
 [^1]: Atkins, P. W., De Paula, J., & Keeler, J. (2018). Atkins' Physical Chemistry (illustrated ed.). Oxford University Press.

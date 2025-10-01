@@ -64,6 +64,81 @@ $red-300: #990000;
 
 $link-color: $red-300;
 
+/* Default Palette */
+.red {
+  background-color: $red-200;
+  width: auto;
+}
+
+.red-text {
+  color: $red-200;
+}
+
+.flame {
+  background-color: $flame-100;
+}
+
+.flame-text {
+  color: $flame-100;
+}
+
+.yellow {
+  background-color: $yellow-100;
+}
+
+.yellow-text {
+  color: $yellow-100;
+}
+
+.green {
+  background-color: $green-000;
+}
+
+.green-text {
+  color: $green-000;
+}
+
+.aqua {
+  background-color: $aqua-200;
+}
+
+.aqua-text {
+  color: $aqua-200;
+}
+
+.blue {
+  background-color: $blue-000;
+}
+
+.blue-text {
+  color: $blue-000;
+}
+
+.purple {
+  background-color: $purple-200;
+  width: auto;
+}
+
+.purple-text {
+  color: $purple-200;
+}
+
+.medgrey {
+  background-color: $grey-dk-200;
+}
+
+.medgrey-text {
+  color: $grey-dk-200;
+}
+
+.dkgrey {
+  background-color: $grey-dk-300;
+}
+
+.dkgrey-text {
+  color: $grey-dk-300;
+}
+
 .label:not(g),
 .label-blue:not(g) {
   background-color: $blue-000;
@@ -140,6 +215,7 @@ $link-color: $red-300;
 
 .btn.footer-nav-button {
   margin: 0px 0px 10px 0px;
+  color: $grey-dk-300;
 }
 
 .page-author {
