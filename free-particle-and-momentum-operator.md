@@ -51,7 +51,7 @@ The momentum operator makes changes to the wavefunction. Ask for momentum and ge
 
 Confirm this with an example where $$\rho = \frac{\hbar}{i} \frac{d}{dx}$$.  
 
-$$\hat{$$\rho} \Psi = $$\rho(A e^{i k x}) = \frac{\hbar}{i} \frac{d}{dx}(A e^{i k x}) = \frac{\hbar}{i}A(i k)e^{i k x} = \hbar k A e^{i k x} = $$\rho A e^{i k x}$$  
+$$\hat{\rho} \Psi = $$\rho(A e^{i k x}) = \frac{\hbar}{i} \frac{d}{dx}(A e^{i k x}) = \frac{\hbar}{i}A(i k)e^{i k x} = \hbar k A e^{i k x} = \rho A e^{i k x}$$  
 
 This returns the scalar momentum ($$\rho$$) times the eigenfunction ($$A e^{i k x}$$).  
 
@@ -61,12 +61,12 @@ Now confirm for $$\rho^2$$ where the Energy for classical physics is
 
 $$E = \frac{1}{2}mv^2 = \frac{\rho^2}{2m}$$  
 
-$$\rho^2 = \left(\frac{\hbar}{i}\frac{d}{dx}\right)^2 = \frac{\hbar^2}{i^2}\frac{d^2}{dx^2} = -\hbar^2 \frac{d^2}{dx^2}$$  
+$$\hat{\rho^2} = \left(\frac{\hbar}{i}\frac{d}{dx}\right)^2 = \frac{\hbar^2}{i^2}\frac{d^2}{dx^2} = -\hbar^2 \frac{d^2}{dx^2}$$  
 
 $$\frac{d^2}{dx^2} = \nabla^2$$  
 
 confirms that this is a reasonable match to classical physics  
 
-$$\frac{\rho^2}{2m} = H = -\frac{\hbar^2}{2m} \nabla^2$$  
+$$\frac{\hat{\rho^2}}{2m} = H = -\frac{\hbar^2}{2m} \nabla^2$$  
 
 ---
