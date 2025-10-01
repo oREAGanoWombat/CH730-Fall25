@@ -17,7 +17,6 @@ vendor/
 /vendor/
 
 # Gemfile and lock files should be committed but this ignores the cache
-Gemfile.lock
 .sass-cache/
 .jekyll-cache/
 
