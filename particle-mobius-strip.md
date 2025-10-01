@@ -2,7 +2,7 @@
 title: Particle on a Möbius Strip
 layout: default
 author: Reagan McNeill Womack
-nav_exclude: true # excludes file from navigation
+nav_order: 11
 ---
 
 # Particle on a Möbius Strip

@@ -2,7 +2,7 @@
 title: Eigenfunction for a Quantum Harmonic Oscillator
 layout: default
 author: Natalie Woods
-nav_exclude: true # excludes file from navigation
+nav_order: 9
 ---
 
 # Eigenfunction for a Quantum Harmonic Oscillator

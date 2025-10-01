@@ -2,7 +2,7 @@
 title: Classical Vibration
 layout: default
 author: Hans Kindstedt
-nav_exclude: true # excludes file from navigation
+nav_order: 7
 ---
 
 # Hooke's Law

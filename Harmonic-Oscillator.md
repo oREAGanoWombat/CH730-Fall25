@@ -2,7 +2,7 @@
 title: Harmonic Oscillator
 layout: default
 author: Logan Grady
-nav_exclude: False
+nav_order: 8
 ---
 
 # The Harmonic Oscillator

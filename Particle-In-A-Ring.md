@@ -2,7 +2,7 @@
 title: Particle in a Ring
 layout: default
 author: Juliette 
-nav_exclude: true # excludes file from navigation
+nav_order: 10
 ---
 
 # Particle in a Ring
