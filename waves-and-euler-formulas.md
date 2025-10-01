@@ -1,8 +1,6 @@
 ---
 title: Waves & Euler Formulas
 layout: default
-author: Reagan McNeill Womack
-nav_order: 2
 ---
 
 # Waves & Euler Formulas
@@ -13,9 +11,9 @@ Wave functions are typically denoted by the Greek letter psi $$\psi$$ and are ma
 > $$\psi_{1} = sin(kx)$$ 
 > 
 > For $$k=1$$, the plot of $$\psi_{1}$$ from $$x[0,2\pi]$$ looks like \
-> ![Plot 1](assets/images/waves-and-euler-formulas-1.jpg) \
+> ![Plot 1](images/waves-and-euler-formulas-1.jpg) \
 > A higher value of $$k$$ (say $$k=3$$) changes the plot of $$\psi_{1}$$ as such \
-> ![Plot 2](assets/images/waves-and-euler-formulas-2.jpg)
+> ![Plot 2](images/waves-and-euler-formulas-2.jpg)
 
 ---
 
@@ -42,3 +40,5 @@ $$\begin{align}
 \end{align}$$
 
 ---
+
+Page Author: *Reagan McNeill Womack*

@@ -15,3 +15,5 @@ plugins:
   - jekyll-default-layout
 
 favicon_ico: "images/site-logo.png"
+
+search_enabled: true
