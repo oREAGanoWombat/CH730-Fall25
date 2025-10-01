@@ -1,0 +1,65 @@
+<!--
+This include generates the Next/Previous navigation buttons based on the
+order defined in _data/nav_order.yml.
+-->
+{% assign current_url = page.url | split: ".html" | first %}
+{% assign pages = site.data.nav_order.pages %}
+{% assign current_index = nil %}
+
+<!-- 1. Find the index of the current page in the list -->
+{% for item in pages %}
+{% assign item_url = item.url | split: ".html" | first %}
+{% if item_url == current_url %}
+{% assign current_index = forloop.index0 %}
+{% break %}
+{% endif %}
+{% endfor %}
+
+<!-- Check if current page was found in the list -->
+{% if current_index != null %}
+
+<!-- Calculate indices for previous and next pages -->
+{% assign prev_index = current_index | minus: 1 %}
+{% assign next_index = current_index | plus: 1 %}
+
+<div class="next-prev-footer" style="
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+  ">
+
+    <!-- Previous Button -->
+    <div class="prev-button">
+        {% if prev_index >= 0 %}
+        {% assign prev_page = pages[prev_index] %}
+        <a href="{{ prev_page.url | relative_url }}" class="btn btn-grey footer-nav-button">
+            <!-- Chevron icon (left) -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 0.5rem; vertical-align: -0.125em;">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+            </svg>
+            {{ prev_page.title }} (Previous)
+        </a>
+        {% else %}
+        <!-- Placeholder for alignment -->
+        <span></span>
+        {% endif %}
+    </div>
+
+    <!-- Next Button -->
+    <div class="next-button">
+        {% if next_index < pages.size %}
+        {% assign next_page = pages[next_index] %}
+        <a href="{{ next_page.url | relative_url }}" class="btn btn-grey footer-nav-button">
+            (Next) {{ next_page.title }}
+            <!-- Chevron icon (right) -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-left: 0.5rem; vertical-align: -0.125em;">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 0 0 .708L10.293 8l-5.647 5.646a.5.5 0 0 0 .708.708l6-6a.5.5 0 0 0 0-.708l-6-6a.5.5 0 0 0-.708 0z"/>
+            </svg>
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+{% endif %}

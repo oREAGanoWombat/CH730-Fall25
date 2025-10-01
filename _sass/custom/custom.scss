@@ -1,0 +1,76 @@
+@import "color_schemes/custom-scheme";
+
+/* Flexbox */
+.flex-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inline-display {
+  display: inline-block;
+}
+
+hr.bold {
+  border: 1px solid;
+}
+
+hr.dashed {
+  border-top: 3px dashed;
+  background-color: transparent !important;
+}
+
+hr.dotted {
+  border-top: 3px dotted;
+  background-color: transparent !important;
+}
+
+hr.content-break {
+  border: 10px solid;
+  border-radius: 5px;
+}
+
+hr.medgrey {
+  background: $grey-dk-200;
+  border-color: $grey-dk-200;
+}
+
+hr.red {
+  background: $red-200;
+  border-color: $red-200;
+}
+
+hr.flame {
+  background: $flame-100;
+  border-color: $flame-100;
+}
+
+hr.yellow {
+  background: $yellow-100;
+  border-color: $yellow-100;
+}
+
+hr.green {
+  background: $green-000;
+  border-color: $green-000;
+}
+
+hr.aqua {
+  background: $aqua-200;
+  border-color: $aqua-200;
+}
+
+hr.blue {
+  background: $blue-000;
+  border-color: $blue-000;
+}
+
+hr.purple {
+  background: $purple-200;
+  border-color: $purple-200;
+}
+
+
+

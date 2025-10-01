@@ -1,0 +1,303 @@
+// redefine variables to adjust the overall look of the website
+// https://github.com/just-the-docs/just-the-docs/blob/main/_sass/support/_variables.scss
+// Typography
+
+// prettier-ignore
+$body-font-family: roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji";
+
+// Font size
+// `-sm` suffix is the size at the small (and above) media query
+
+$font-size-1: 0.5625rem;
+$font-size-1-sm: 0.625rem;
+$font-size-2: 0.6875rem; // h4 - uppercased!, h6 not uppercased, text-small
+$font-size-3: 0.75rem; // h5
+$font-size-4: 0.875rem;
+$font-size-5: 1rem; // h3
+$font-size-6: 1.125rem; // h2
+$font-size-7: 1.5rem;
+$font-size-8: 2rem; // h1
+$font-size-9: 2.25rem;
+$font-size-10: 2.625rem;
+$font-size-10-sm: 3rem;
+
+// Colors
+
+$white: #fff;
+$grey-dk-000: #cccccc;
+$grey-dk-100: #b2b2b2;
+$grey-dk-200: #808080;
+$grey-dk-250: #4d4d4d;
+$grey-dk-300: #333333;
+$grey-lt-000: #f2f2f2;
+$grey-lt-100: #eeebee;
+$grey-lt-200: #ecebed;
+$grey-lt-300: #e6e1e8;
+$purple-000: #84a0dc;
+$purple-100: #728bcf;
+$purple-200: #5b73bb;
+$purple-300: #4156a1;
+$blue-000: #80c3d4;
+$blue-100: #6fb2c5;
+$blue-200: #599baf;
+$blue-300: #427e93;
+$aqua-000: #91f2cb;
+$aqua-100: #57dab1;
+$aqua-200: #2db597;
+$aqua-300: #008473;
+$green-000: #bfcc46;
+$green-100: #a2b729;
+$green-200: #8d9e2b;
+$green-300: #6f7d1c;
+$yellow-000: #fef8cb;
+$yellow-100: #fde565;
+$yellow-200: #f8da3e;
+$yellow-300: #fac800;
+$flame-000: #f8a812;
+$flame-100: #f28c0d;
+$flame-200: #e16408;
+$flame-300: #d14905;
+$red-000: #ea1500;
+$red-100: #cc0000;
+$red-200: #b40000;
+$red-300: #990000;
+
+$link-color: $red-300;
+
+/* Default Palette */
+.red {
+  background-color: $red-200;
+  width: auto;
+}
+
+.red-text {
+  color: $red-200;
+}
+
+.flame {
+  background-color: $flame-100;
+}
+
+.flame-text {
+  color: $flame-100;
+}
+
+.yellow {
+  background-color: $yellow-100;
+}
+
+.yellow-text {
+  color: $yellow-100;
+}
+
+.green {
+  background-color: $green-000;
+}
+
+.green-text {
+  color: $green-000;
+}
+
+.aqua {
+  background-color: $aqua-200;
+}
+
+.aqua-text {
+  color: $aqua-200;
+}
+
+.blue {
+  background-color: $blue-000;
+}
+
+.blue-text {
+  color: $blue-000;
+}
+
+.purple {
+  background-color: $purple-200;
+  width: auto;
+}
+
+.purple-text {
+  color: $purple-200;
+}
+
+.medgrey {
+  background-color: $grey-dk-200;
+}
+
+.medgrey-text {
+  color: $grey-dk-200;
+}
+
+.dkgrey {
+  background-color: $grey-dk-300;
+}
+
+.dkgrey-text {
+  color: $grey-dk-300;
+}
+
+.label:not(g),
+.label-blue:not(g) {
+  background-color: $blue-000;
+  font-weight: bold;
+}
+
+.label-purple:not(g) {
+  background-color: $purple-200;
+}
+
+.label-green:not(g) {
+  background-color: $green-000;
+}
+
+.label-yellow:not(g) {
+  color: $grey-dk-250;
+  background-color: $yellow-100;
+}
+
+.label-red:not(g) {
+  background-color: $red-200;
+}
+
+.label.section-label {
+  padding: 5px;
+  font-size: 20px !important;
+  margin: 0;
+}
+
+.label.centered {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.label.image-caption {
+  background-color: $blue-300;
+  color: $grey-dk-100;
+  font-size: $font-size-1;
+  align-content: right;
+}
+
+.side-bar {
+    width: 25%;
+    padding-left: 0%;
+}
+
+.site-header {
+    white-space: normal;
+    flex: 1 1 auto;
+    height: auto;
+    max-height: 100px !important;
+    width: 100% !important;
+}
+
+.main {
+    max-width: 100%;
+}
+
+.site-nav {
+    width: 100% !important;
+}
+
+.btn.image-caption {
+  background-color: $grey-dk-000;
+  float: right;
+  font-size: $font-size-2;
+  display: block;
+}
+
+.btn-grey {
+  @include btn-color($grey-dk-300, $grey-dk-100);
+}
+
+.btn.footer-nav-button {
+  margin: 0px 0px 10px 0px;
+  color: $grey-dk-300;
+}
+
+.page-author {
+  margin: 10px 0px -50px 0px;
+}
+
+// --- Headshot Gallery CSS ---
+
+/* 1. Container for all headshots. Uses Flexbox for wrapping. */
+.headshot-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the entire row of items */
+  gap: 2rem; /* Space between each headshot item */
+  padding: 2rem 0;
+}
+
+/* 2. Individual headshot item container */
+.headshot-item {
+  text-align: center;
+  width: auto;
+  flex-shrink: 0; /* Prevents the item from shrinking too much */
+}
+
+/* 3. Image styling (making it round and cropped) */
+.headshot-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  border-radius: 5px;
+  border: 3px solid $grey-dk-200; /* Border using theme color */
+  margin-bottom: -1rem;
+  box-shadow: 0 4px 8px $grey-dk-100;
+}
+
+/* 4. Text styling */
+.headshot-name {
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+  margin-top: -1rem;
+  color: $grey-dk-300;
+}
+
+.headshot-role {
+  font-size: 0.9em;
+  color: $grey-dk-300;
+  margin-bottom: -1rem;
+}
+
+/* 5. Responsive adjustment: Allow more columns on wider screens */
+@media (min-width: 900px) {
+  .headshot-gallery {
+    justify-content: space-evenly; /* Evenly space items on large screens */
+  }
+}
+
+// --- NEW STYLES FOR OPTIONAL HEADSHOT FIELDS ---
+
+.headshot-degree {
+  font-size: 0.7em;
+  color: $grey-dk-200;
+  margin: -1rem 0 -1rem 0;
+}
+
+.headshot-social {
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center; /* Center the icons within the item */
+  gap: 10px;
+}
+
+.social-link {
+  text-decoration: none;
+  font-size: 1.4em; /* Adjust icon size */
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-link:hover {
+  transform: scale(1.15);
+}
+
+.hidden {
+  visibility: hidden;
+}
