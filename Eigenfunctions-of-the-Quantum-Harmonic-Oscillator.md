@@ -9,7 +9,7 @@ nav_order: 9
 In this section, we will state and discuss the solution of wave function for the quantum harmonic oscillator. Afterwards, it will be proven by applying the solution to Schrodinger's equation and prove that the associated eigenvalue, $$E$$, is in accordance with the well-known and established energy values of the system. We will begin by declaring Schrodinger's equation.
 
 ### Schrodinger Equation for a Quantum Harmonic Oscillator
-Mentioned previously in the Harmonic Oscillator section[^1], Schrodinger's equation for a quantum harmonic oscillator is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function. Note $$V$$ is the potential energy function of a harmonic oscillator.
+Mentioned previously in the Harmonic Oscillator section [^1], Schrodinger's equation for a quantum harmonic oscillator is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function. Note $$V$$ is the potential energy function of a harmonic oscillator.
 
 Thus, with these definitions included, Schrodinger's equation is
 
@@ -17,7 +17,7 @@ $$\frac{-ℏ^2}{2m} ∇^2\psi + \frac{1}{2}kx^2\psi= E\psi$$
 
 ### Definition and Discussion of the Eigenfunction for Harmonic Oscillator
 
-It has been determined that the energies permitted by the boundary conditions for Schrodinger's equation for an oscillator are $$E_v = (v + \frac{1}{2})ℏ\omega$$[^1], where $$\omega=\sqrt{\frac{k_f}{m}}$$. We will later use this fact to prove that the precise solution to Schrodinger's Equation for a quantum harmonic oscillator is
+It has been determined that the energies permitted by the boundary conditions for Schrodinger's equation for an oscillator are $$E_v = (v + \frac{1}{2})ℏ\omega$$ [^1], where $$\omega=\sqrt{\frac{k_f}{m}}$$. We will later use this fact to prove that the precise solution to Schrodinger's Equation for a quantum harmonic oscillator is
 
 $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$
 
@@ -71,4 +71,4 @@ This result is consistent with the permissable energy levels of a quantum harmon
 
 ---
 
-[^1]: [Harmonic Oscillator](Harmonic-Oscillator.html)
+[^1]: https://oreaganowombat.github.io/CH730-Fall25/Harmonic-Oscillator.html
