@@ -9,13 +9,13 @@ nav_order: 5
 
 ## Free Particle  
 
-Function of a standing wave. Where k tells about the p and direction of the wave.  
+Function of a standing wave is: 
 
 $$\Psi(x) = A * e^{i k x} + B * e^{-i k x}$$  
 
 Solve for the energy of the wave by applying the hamiltonian to Ψ  
 
-apply the operator on the wavefunction  
+Apply the operator on the wavefunction  
 
 $$H\Psi = -\frac{\hbar^2}{2m} \nabla^2(A e^{i k x} + B e^{-i k x})$$  
 
@@ -23,13 +23,13 @@ $$= -\frac{\hbar^2}{2m}(A(i k)^2 e^{i k x} + B(-i k)^2 e^{-i k x})$$
 
 $$= -\frac{\hbar^2}{2m}(-A k^2 e^{i k x} - B k^2 e^{-i k x})$$  
 
-$$= -\frac{\hbar^2}{2m}(-k^2)(A e^{i k x} + B e^{-i k x})$$  
+$$E\Psi = -\frac{\hbar^2}{2m}(-k^2)(A e^{i k x} + B e^{-i k x})$$  
 
 where $$E$$ is the Energy (eigenvalue) and the wavefunction is returned (eigenfunction)  
 
 $$E = \frac{\hbar^2 k^2}{2m}(A e^{i k x} + B e^{-i k x})$$  
 
-The free particle has no boundaries and is not confined in space, therefore $$k$$ and $$E$$ values can be anything. No restrictions/boundaries means not quantized.  
+The free particle has no boundaries and is not confined in space, the spatial frequency, $$k$$,  and $$E$$ values are not restricted and can be any number. Therefore, since they are not restricted, the system is not quantized.  
 
 ---
 
@@ -49,11 +49,11 @@ Momentum operator ($$\rho$$):
 
 The momentum operator makes changes to the wavefunction. Ask for momentum and get back the eigenfunction ($$\Psi$$) and eigenvalue ($$\rho$$) from operation.  
 
-Confirm this with an example where $$p = \frac{\hbar}{i} \frac{d}{dx}$$.  
+Confirm this with an example where $$\rho = \frac{\hbar}{i} \frac{d}{dx}$$.  
 
-$$\hat{p} \Psi = p(A e^{i k x}) = \frac{\hbar}{i} \frac{d}{dx}(A e^{i k x}) = \frac{\hbar}{i}A(i k)e^{i k x} = \hbar k A e^{i k x} = \rho A e^{i k x}$$  
+$$\hat{$$\rho} \Psi = $$\rho(A e^{i k x}) = \frac{\hbar}{i} \frac{d}{dx}(A e^{i k x}) = \frac{\hbar}{i}A(i k)e^{i k x} = \hbar k A e^{i k x} = $$\rho A e^{i k x}$$  
 
-This returns the scalar momentum ($$\rho$$) and returns the wavefunction eigenfunction ($$A e^{i k x}$$).  
+This returns the scalar momentum ($$\rho$$) times the eigenfunction ($$A e^{i k x}$$).  
 
 ---
 
