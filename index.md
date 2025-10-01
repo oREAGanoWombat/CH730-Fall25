@@ -25,11 +25,19 @@ Browse Topics
 Coming Soon!
 {: .label .label-yellow .section-label }
 
-- [x] Classical Vibration
-- [x] Quantum Harmonic Oscillator
-- [x] Eigenfunctions of the Quantum Harmonic Oscillator
-- [x] Particle in a Ring
-- [x] Particle on a Mobius Strip
+- [ ] Particle on a Sphere
+- [ ] Orbital Theory & Visualization in Mathematica
+- [ ] Spherical Harmonics
+- [ ] Radial Wavefunctions for Hydrogenic Atoms
+- [ ] Atomic Orbitals & Their Energies
+  - [ ] Specification of Orbitals
+  - [ ] Energy Levels
+  - [ ] Ionization Energies
+  - [ ] Shells & Subshells
+  - [ ] s Orbitals
+  - [ ] Radial Distribution Functions
+  - [ ] p Orbitals
+  - [ ] d Orbitals
 
 ---
 
