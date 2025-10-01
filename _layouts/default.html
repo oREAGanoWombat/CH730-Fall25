@@ -19,7 +19,7 @@ layout: compress
                 <!-- Check if the current page is NOT the home page (which has the URL '/') -->
                 {% if page.url != "/" %}
                 <footer class="page-footer">
-                    <p class="page-author">Page Author: <em class="page-author name">{{ page.author }}</em></p>
+                    <div class="page-author"><p>Page Author: <em>{{ page.author }}</em></p></div>
                     {% include next_prev_buttons.html %}
                 </footer>
 
