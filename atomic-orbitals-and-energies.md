@@ -2,7 +2,7 @@
 title: Atomic Orbitals & Their Energies
 layout: default
 author: Logan, Hans, Reagan, Natalie, & Juliette
-nav_exclude: false # excludes file from navigation
+nav_exclude: true # excludes file from navigation
 ---
 
 # Atomic Orbitals & Their Energies
