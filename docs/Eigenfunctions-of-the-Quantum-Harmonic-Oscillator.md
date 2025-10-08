@@ -26,11 +26,11 @@ where $$y = \frac{x}{\alpha}$$, $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$, a
 There are several oddities in this solution that set it apart from the other discussed wave functions, particularly with the presence of $$H_v$$ and $$e^\frac{-y^2}{2}.$$ The exact development of this model will not be discussed, but we will elaborate on the meanings of $$H_v$$ and $$e^\frac{-y^2}{2}$$.
 The term $$e^\frac{-y^2}{2}$$ represents the Gaussian curve, reflecting the probabilistic nature to the solution of the equation. $$H_v$$, however, has multiple expressions based on the frequency $$v$$, shown in the table below:
 
-<p align="center"><img src="/assets/images/Hermite polynomials.jpg"></p>
+<p align="center"><img src="/assets/images/Hermite%20polynomials.jpg"></p>
 
 Depending on the value of $$v$$, the order of $$H_v$$ changes accordingly to $$v$$. Specifically, the degree of $$H_v$$ is equal to $$v$$. The image below displays the solutions to $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ with discretely increasing $$v$$.
 
-<p align="center"><img src="/assets/images/quantumharmonic solution.jpg"></p>
+<p align="center"><img src="/assets/images/quantumharmonic%20solution.jpg"></p>
 
 Plotted along with the solutions is the potential energy curve (blue parabola). The wave functions corresponding to even $$v$$ are symmetric with respect to $$y=0$$ and those corresponding to odd $$v$$ are antisymmetric with respect to $$y=0$$. As x approaches 0, the Guassian function approaches 1, and so $$H_v$$ dominates the behavior of the wave funtion near the origin. However, as x approaches infinity, the dampening effect of the Gaussian funtion is dominant, forcing the function to approach zero. 
 

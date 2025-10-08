@@ -22,10 +22,10 @@ $$\psi_{v}(x)=N_{v}H{v}(y)e^{\frac{-y^{2}}{2}}$$
 Where $$v$$ is a new quantum number that can be any whole number (ie. 0,1,2,3,...), $$N_{v}$$ is a normalization constant given by $$N_{v}=(\alpha \sqrt{\pi}2^{v}v!)^{\frac{-1}{2}}$$ , $$y=\frac{x}{\alpha}$$, $$H_{v}$$ is the Hermite Polynomial for a give value of $$v$$, and, finally, $$\alpha=(\frac{\hbar^{2}}{mk_{f}})^{\frac{1}{4}}$$
 
 Visualizing the first few Harmonic Oscillator Wavefunctions:
-<p align="center"><img src="assets/images/Harmonic-Oscillator-Energy-Levels.jpg"></p>
+<p align="center"><img src="../assets/images/Harmonic-Oscillator-Energy-Levels.jpg"></p>
 
 Now visulaizing the probability density of the wavefunctions by taking the square modulus:
-<p align="center"><img src="assets/images/HO-Prob-Density.jpg"></p>
+<p align="center"><img src="../assets/images/HO-Prob-Density.jpg"></p>
 
 Here we can see that the probability of finding the particle extends beyond the bounds of our potential, unlike in the Particle in a Box. This is because the probability is not infinite, but depends on the height inside of the potential well. This is elucidated by noting that probability densities of lower values of $$v$$ extend further past the potential than those with higher values of $$v$$.
 

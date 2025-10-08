@@ -8,7 +8,7 @@ nav_order: 7
 # Hooke's Law
 Let's imagine a ball with mass $$m$$ attached to an immovable wall by a spring. The only force that acts upon the ball is the force exerted by the spring. 
 
-<p align="center"><img src="assets/images/Classical Spring.jpg" width="250"></p>
+<p align="center"><img src="../assets/images/Classical%20Spring.jpg" width="250"></p>
 
 The force applied on the ball by the spring can be described by the equation $$F=-k_{f}x$$. $$k_{f}$$ is the force constant of the spring which is dependant on the spring itself and $$x$$ describes the position of the ball in relation to the spring's equilibrium point $$(x=0)$$. This intuitively makes sense. As you pull the ball in the $$+x$$ direction away from the wall, the spring resists pulling it back in the $$-x$$ direction and vise versa. 
 
