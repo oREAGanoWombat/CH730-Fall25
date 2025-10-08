@@ -7,10 +7,7 @@
 [StackEdit](https://stackedit.io)
 
 ## General Website To-Do
+- [ ] Fix file organization
 
 ## Coming Soon!
-- Classical Vibration (*Hans*)
-- Quantum Harmonic Oscillator (*Logan*)
-- Eigenfunctions of the Quantum Harmonic Oscillator (*Natalie*)
-- Particle in a Ring (*Juliette*)
-- Particle on a Mobius Strip (*Reagan*)
+
