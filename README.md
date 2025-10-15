@@ -10,7 +10,7 @@
 - [ ] Fix file organization
 
 ## Coming Soon!
-- [ ] Particle on a Sphere & Spherical Harmonics
-- [ ] Orbital Theory & Visualization in Mathematica
-- [ ] Dynamic Radius Wavefunctions for Hydrogenic Atoms
+- [ ] Particle on a Sphere & Spherical Harmonics (*Natalie*)
+- [ ] Orbital Theory & Visualization in Mathematica (*Logan*)
+- [ ] Dynamic Radius Wavefunctions for Hydrogenic Atoms (*Reagan*)
 
