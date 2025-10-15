@@ -25,19 +25,9 @@ Browse Topics
 Coming Soon!
 {: .label .label-yellow .section-label }
 
-- [ ] Particle on a Sphere
+- [ ] Particle on a Sphere & Spherical Harmonics
 - [ ] Orbital Theory & Visualization in Mathematica
-- [ ] Spherical Harmonics
-- [ ] Radial Wavefunctions for Hydrogenic Atoms
-- [ ] Atomic Orbitals & Their Energies
-  - [ ] Specification of Orbitals
-  - [ ] Energy Levels
-  - [ ] Ionization Energies
-  - [ ] Shells & Subshells
-  - [ ] s Orbitals
-  - [ ] Radial Distribution Functions
-  - [ ] p Orbitals
-  - [ ] d Orbitals
+- [ ] Dynamic Radius Wavefunctions for Hydrogenic Atoms
 
 ---
 
