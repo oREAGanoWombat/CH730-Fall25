@@ -30,7 +30,7 @@ $$\frac{-\hbar^2}{2m}\frac{1}{r^2}\Lambda\psi(\theta, \phi) = E\psi(\theta, \phi
 
 Finally, the moment of inertia $$I$$ (defined as $$I = 2mr^2$$) can be subsituted to obtain the final form of the Schrodinger's Equation for a particle on a sphere with constant radius:
 
-$$\frac{-\hbar^2}{I}\Lambda^2\psi(\theta, \phi) = E\psi(\theta, \phi)$$
+$$\frac{-\hbar^2}{2I}\Lambda^2\psi(\theta, \phi) = E\psi(\theta, \phi)$$
 
 ### The solutions to Schrodinger's Equation: Spherical Harmonics
 
@@ -42,12 +42,28 @@ $$\psi(\theta, \phi) = \psi(\theta, \phi + 2\pi)$$
 
 These boundary conditions ensure that after one full rotation ($$2\pi$$), the function "meets" at the same place it started, ensuring its continuity.
 
-Thus, with these boundary conditions imposed Schrodinger's equation, the solutions can be determined. These solutions are called spherical harmonics, denoted as $$Y_{l, m_l}(\theta, \phi)$$. More specifically, however, $$Y_{l, m_l}(\theta, \phi)$$ are the solutions to
+Thus, because these boundary conditions force spherical symmetry onto the solutions of Schrodinger's equation, the solutions can be determined through the usage of mathematical functions called spherical harmonics, denoted as $$Y_{l, m_l}(\theta, \phi)$$. For a particle confined to the surface of a sphere, these functions will also be the complete solution to Schrodinger's equation. $$Y_{l, m_l}(\theta, \phi)$$ satisfies the following equation:
 
-$$\Lambda^2Y_{l, m_l}(\theta, \phi) = Y_{l, m_l}(\theta, \phi)$$
+$$\Lambda^2Y_{l, m_l}(\theta, \phi) = -l(l+1)Y_{l, m_l}(\theta, \phi)$$
 
-where $$l = 0, 1, 2, ...$$ and $$m_l = 0, ±1, ..., ±l$$.
+where $$l = 0, 1, 2, ...$$ and $$m_l = 0, ±1, ..., ±l$$. You may recognize $$l$$ as the azimuthal quantum number (which describes the atomic orbital shape) and $$m_l$$ as the magnetic quantum number (which determines the atomic orbital orientation).
 
-The solutions $$Y_{l, m_l}(\theta, \phi)$$ for different values of $$l$$ and $$m_l$$ are shown on the table below
+The solutions $$Y_{l, m_l}(\theta, \phi)$$ for different values of $$l$$ and $$m_l$$ are shown on the table below:
 
 <p align="center"><img src="../assets/images/spherical_harmonics.png"></p>
+
+### Energies of the solutions
+
+To determine the energies of the solutions, let's first place our solution function, $$Y_{l, m_l}(\theta, \phi)$$ into the Schrodinger equation:
+
+$$\frac{-\hbar^2}{2I}\Lambda^2Y_{l, m_l}(\theta, \phi) = E\Y_{l, m_l}(\theta, \phi)$$
+
+From $$\Lambda^2Y_{l, m_l}(\theta, \phi) = -l(l+1)Y_{l, m_l}(\theta, \phi)$$, we can substitute $$\Lambda^2Y_{l, m_l}(\theta, \phi)$$ as follows:
+
+$$\frac{-\hbar^2}{2I}\Lambda^2Y_{l, m_l}(\theta, \phi) = \frac{\hbar^2}{2I}l(l+1)Y_{l, m_l}(\theta, \phi)$$
+
+Thus, the energies $$E$$ for each solution $$Y_{l, m_l}(\theta, \phi)$$ are
+
+$$E = \frac{\hbar^2}{2I}l(l+1)$$
+
+Because $$l$$ has discrete values, $$E$$ is quantized. Another observation is that $$m_l$$ is absent, meaning the energy is completely independent of the direction of the motion.
