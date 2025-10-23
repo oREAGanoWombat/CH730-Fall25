@@ -9,8 +9,8 @@ nav_exclude: true # excludes file from navigation
 
 | **Equation** | **Constants** | **Linked Pages** |
 | :---| :---| :---|
-| <span>$$p=mv=\frac{h}{\lambda}$$<\span> | <span>$$h=6.626*10^{-34}J/s$$<\span> | |
-| <span>$$c=\lambda*\nu$$<\span> | <span>$$c=2.998*10^{8}m/s$$<\span> | |
+| <span>$$p=mv=\frac{h}{\lambda}$$</span> | <span>$$h=6.626*10^{-34}J/s$$</span> | |
+| <span>$$c=\lambda*\nu$$</span> | <span>$$c=2.998*10^{8}m/s$$</span> | |
 $$E=\frac{1}{2}mv^{2}=mc^{2}=h\nu$$ | $$c=2.998*10^{8}m/s$$ |
 $$e^{ikx}=\cos(ikx)+i\sin(ikx)$$
 $$H\psi=E\psi$$
