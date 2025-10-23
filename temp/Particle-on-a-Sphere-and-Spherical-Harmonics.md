@@ -7,10 +7,10 @@ nav_exclude: true # excludes file from navigation
 # Particle on a Sphere
 
 The next system that will be discussed is a particle on a sphere of constant radius $$r$$, where the particle is free to move anywhere on its surface:
+The wave function$$\psi$$ is with respect to $$\theta$$ and $$\phi$$, defined below:
 
 <p align="center"><img src="../assets/images/PoS_constantradius.png"></p>
 
-$$\theta$$ in spherical coordinates is similar to that in the particle on a ring, but \$$phi$$ is introduced as a third dimension, and is the angle from the positive z-axis
 ### Defining Schrodinger's Equation for a particle on a sphere
 Because the particle is constrained on the surface of the sphere, the potential energy is taken to be zero on the surface and is infinite everywhere else. Thus, because $$V=0$$, the Schrodinger equation for this system is
 
@@ -32,8 +32,22 @@ Finally, the moment of inertia $$I$$ (defined as $$I = 2mr^2$$) can be subsitute
 
 $$\frac{-\hbar^2}{I}\Lambda^2\psi(\theta, \phi) = E\psi(\theta, \phi)$$
 
+### The solutions to Schrodinger's Equation: Spherical Harmonics
 
+There are two boundary conditions that must be imposed for this model, and they must be true for every value of $$\theta$$ and $$\phi$$:
 
-### The solutions to Schrodinger's Equation
-Show fig 7f.5 to demonstrate what the solutions look like
+$$\psi(\theta, \phi) = \psi(\theta + 2\pi, \phi)$$
 
+$$\psi(\theta, \phi) = \psi(\theta, \phi + 2\pi)$$
+
+These boundary conditions ensure that after one full rotation ($$2\pi$$), the function "meets" at the same place it started, ensuring its continuity.
+
+Thus, with these boundary conditions imposed Schrodinger's equation, the solutions can be determined. These solutions are called spherical harmonics, denoted as $$Y_{l, m_l}(\theta, \phi)$$. More specifically, however, $$Y_{l, m_l}(\theta, \phi)$$ are the solutions to
+
+$$\Lambda^2Y_{l, m_l}(\theta, \phi) = Y_{l, m_l}(\theta, \phi)$$
+
+where $$l = 0, 1, 2, ...$$ and $$m_l = 0, ±1, ..., ±l$$.
+
+The solutions $$Y_{l, m_l}(\theta, \phi)$$ for different values of $$l$$ and $$m_l$$ are shown on the table below
+
+<p align="center"><img src="../assets/images/spherical_harmonics.png"></p>
