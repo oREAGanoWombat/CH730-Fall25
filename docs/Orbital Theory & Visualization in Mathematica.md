@@ -11,14 +11,14 @@ The Particle on a Sphere eigenfunctions, the spherical harmonics, can be used to
 In order to construct the shape orbitals we only need examine the last two of these quantum numbers, since $$n$$ will only change the relative size of the orbitals, but the shape will remain the same. \
 Recalling from general chemistry, the values of $$l$$ tells us if we have an s, p, or d orbital, according to the table below.
 |$$l$$|Orbital|
-|---|---|
+|:---|:---|
 |0|s|
 |1|p|
 |2|d| 
 
 Additionally, we know that $$m_{l}$$ can only occupy values from $$-l$$ to $$l$$. Adding this to our table:
 |$$l$$|$$m_{l}$$|Orbital|
-|---|---|---|
+|:---|:---|:---|
 |0|0|s|
 |1|-1,0,1|p|
 |2|-2,-1,0,1,2|d| 
@@ -63,3 +63,4 @@ $$d_{xy}:\frac{1}{\sqrt{2}}(Y_{2,2}(\theta , \phi)-Y_{2,-2}(\theta , \phi))$$
 So we now have representations for the s, p, and d orbitals using the eigenfunctions of the Particle on a Sphere model, the spherical harmonics. 
 
 ---
+
