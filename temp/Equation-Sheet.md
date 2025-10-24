@@ -7,17 +7,70 @@ nav_exclude: true # excludes file from navigation
 
 # Equations
 
-| **Equation** | **Constants** | **Linked Pages** |
-| :---| :---| :---|
-| <span>$$p=mv=\frac{h}{\lambda}$$</span> | <span>$$h=6.626*10^{-34}J/s$$</span> | |
-| <span>$$c=\lambda*\nu$$</span> | <span>$$c=2.998*10^{8}m/s$$</span> | |
-$$E=\frac{1}{2}mv^{2}=mc^{2}=h\nu$$ | $$c=2.998*10^{8}m/s$$ |
+$$p=mv=\frac{h}{\lambda}$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|<span>$$p=$$ momentum</span><br>$$m=$$ mass<br>$$\lambda=$$ wavelength||
+
+$$c=\lambda*\nu$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|<span>$$\lambda=$$ wavelength<br>$$\nu=$$ frequency||
+
+$$E=\frac{1}{2}mv^{2}=mc^{2}=h\nu$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|<span>$$E=$$ energy<br>$$m=$$ mass<br>$$v=$$ velocity<br>$$\nu=$$ frequency||
+
 $$e^{ikx}=\cos(ikx)+i\sin(ikx)$$
-$$H\psi=E\psi$$
-$$E=\frac{\hbar^{2}k^{2}}{2m}$$ | $$\hbar=\frac{h}{2\pi}$$
-$$H=\frac{-\hbar^{2}}{2m}\nabla^{2}$$ |$$\hbar=\frac{h}{2\pi}$$ |
-$$E_{n}=\frac{h^{2}n^{2}}{8mL^{2}} \hspace{1cm} n \in \mathbb{Z}^+$$ |$$h=6.626*10^{-34}J/s$$ |
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|$$k=$$ spatial frequency variable<br>$$x=$$ position in one dimension||
+
+$$\hat H\psi=E\psi$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|$$\hat H=$$ hamiltonian operator<br>$$E=$$ energy||
+
+$$E=\frac{\hbar^{2}k^{2}}{2m}(A e^{ikx}+B e^{-ikx})$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|$$E=$$ energy a free particle<br>$$k=$$ spatial frequency variable<br>$$m=$$ mass<br>$$A e^{ikx}+B e^{-ikx}=$$ standing wave function||
+
+$$\hat H=\frac{-\hbar^{2}}{2m}\nabla^{2}$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|$$\hat H=$$ hamiltonian operator<br>$$m=$$ mass<br>$$\nabla^{2}=$$ double derivative operator||
+
+$$E_{n}=\frac{h^{2}n^{2}}{8mL^{2}} \hspace{1cm} n \in \mathbb{Z}^+$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|$$E_{n}=$$ energy of a PIB at a given energy level<br>$$n=$$ quantum number<br>$$m=$$ mass<br>$$L=$$ length of box||
+
 $$\psi(x)=\sqrt{\frac{2}{L}}\sin(\frac{n\pi x}{L}) \hspace{1cm} n \in \mathbb{Z}^+$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|$$\psi(x)=$$ normalized wave function<br>$$\sqrt{\frac{2}{L}}=$$ normalization constant<br>$$n=$$ quantum number<br>$$x=$$ position in one dimension<br>$$L=$$ length of box||
+
+$$F=-k_{f}x=ma$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|$$F=$$ force<br>$$k_{f}=$$ spring constant<br>$$x=$$ distance from equilibrium point<br>$$m=$$ mass<br>$$a=$$ acceleration||
+
+$$V=\frac{1}{2}k_{f}x^{2}$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|$$V=$$ potential of a mass on a harmonic oscillator<br>$$k_{f}=$$ spring constant<br>$$x=$$ distance from equilibrium point||
+
+
+
+
+**Constants**
+
+$$h=6.626 * 10^{-34}J/s$$
+$$c=2.998 * 10^{8}m/s$$
+$$\hbar=\frac{h}{2\pi}$$
+
 
 <!--- Notes from Reagan
 make sure you have "|" for every line in the table, even if the cell is blank (lines 12 and 13 are corrected)
