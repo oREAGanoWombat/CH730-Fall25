@@ -62,7 +62,10 @@ $$V=\frac{1}{2}k_{f}x^{2}$$
 | :---| :---|
 |<span>$$V=$$ potential of a mass on a harmonic oscillator<br>$$k_{f}=$$ spring constant<br>$$x=$$ distance from equilibrium point</span>||
 
-
+$$E_{v}=h\nu(v+\frac{1}{2})$$
+| **Variables** | **Linked Pages** |
+| :---| :---|
+|$$E_{v}=$$ energy of a HO at a given energy level<br>$$\nu=$$ frequency of 
 
 
 **Constants**
