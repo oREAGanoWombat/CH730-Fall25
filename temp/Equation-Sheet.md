@@ -10,7 +10,7 @@ nav_exclude: true # excludes file from navigation
 $$p=mv=\frac{h}{\lambda}$$
 | **Variables** | **Linked Pages** |
 | :---| :---|
-|<span>$$p=$$ momentum<br>$$m=$$ mass<br>$$\lambda=$$ wavelength</span>||
+|<span>$$p=$$ momentum<br>$$m=$$ mass<br>$$\lambda=$$ wavelength</span>|[de Broglie Relation](https://oreaganowombat.github.io/CH730-Fall25/docs/de-broglie-relation.html)|
 
 $$c=\lambda*\nu$$
 | **Variables** | **Linked Pages** |
