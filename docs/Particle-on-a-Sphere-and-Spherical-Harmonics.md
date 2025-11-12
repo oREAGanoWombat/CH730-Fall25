@@ -2,7 +2,7 @@
 title: Particle on a Sphere and Spherical Harmonics
 layout: default
 author: Natalie Woods
-nav_exclude: true # excludes file from navigation
+nav_exclude: false # excludes file from navigation
 ---
 # Particle on a Sphere
 
