@@ -25,7 +25,7 @@ $$= - \frac{\hbar^{2}}{2I} \frac{d^{2}}{d\phi^{2}}$$
 where \(I =\) moment of inertia.  
 
 ---
-![Wavefunction representation](assets/wavefunction.png)
+![Wavefunction representation](../assets/wavefunction.png)
 The blue squiggle line is a representation of the wavefunction.  
 
 $$H \Psi = E \Psi$$  
@@ -37,7 +37,7 @@ Use Euler’s function to rewrite as:
 $$e^{i m_{l} \phi} = \cos(m_{l} \phi) + i \sin(m_{l} \phi)$$  
 
 ---
-![Cosine and sine phase shift](assets/phase_shift.png)
+![Cosine and sine phase shift](../assets/phase_shift.png)
 This shows that the wave oscillates with a phase shift of \(90^{\circ}\), represented as real and imaginary. Both waves oscillate with the same frequency but it looks like cos precedes sin by \(\pi/2\).  
 
 Show that \(e^{i m_{l} \phi} = \cos(m_{l} \phi) + i \sin(m_{l} \phi)\) is an eigenfunction of the Hamiltonian.  
