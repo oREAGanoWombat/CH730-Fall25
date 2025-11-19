@@ -24,3 +24,9 @@ pages:
     url: /docs/Particle-In-A-Ring
   - title: Particle on a Möbius Strip
     url: /docs/particle-mobius-strip
+  - title: Particle on a Sphere & Spherical Harmonics
+    url: /docs/Particle-on-a-Sphere-and-Spherical-Harmonics
+  - title: Orbital Theory & Visualization in Mathematica
+    url: /docs/orbital-theory-visualization
+  - title: Radial Wavefunctions of the Hydrogenic Atom
+    url: /docs/radial-wavefunctions
