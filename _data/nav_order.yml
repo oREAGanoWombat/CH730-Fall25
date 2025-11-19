@@ -3,24 +3,24 @@ pages:
   - title: Home
     url: /
   - title: de Broglie Relation
-    url: /de-broglie-relation
+    url: /docs/de-broglie-relation
   - title: Waves & Euler Formulas
-    url: /waves-and-euler-formulas
+    url: /docs/waves-and-euler-formulas
   - title: Eigenfunctions & Eigenvalues
-    url: /Eigenfunctions-and-Eigenvalues
+    url: /docs/Eigenfunctions-and-Eigenvalues
   - title: Time-Independent Schrödinger Equation
-    url: /time-independent-schrodinger-equation
+    url: /docs/time-independent-schrodinger-equation
   - title: Free Particle and Momentum Operator
-    url: /free-particle-and-momentum-operator
+    url: /docs/free-particle-and-momentum-operator
   - title: One-Dimensional Particle in a Box
-    url: /1D-Particle-in-a-Box
+    url: /docs/1D-Particle-in-a-Box
   - title: Classical Vibration
-    url: /Classical-Vibration
+    url: /docs/Classical-Vibration
   - title: Quantum Harmonic Oscillator
-    url: /Harmonic-Oscillator
+    url: /docs/Harmonic-Oscillator
   - title: Eigenfunctions of the Quantum Harmonic Oscillator
-    url: /Eigenfunctions-of-the-Quantum-Harmonic-Oscillator
+    url: /docs/Eigenfunctions-of-the-Quantum-Harmonic-Oscillator
   - title: Particle on a Ring
-    url: /Particle-In-A-Ring
+    url: /docs/Particle-In-A-Ring
   - title: Particle on a Möbius Strip
-    url: /particle-mobius-strip
+    url: /docs/particle-mobius-strip
