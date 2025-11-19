@@ -3,6 +3,7 @@ title: Radial Wavefunctions of the Hydrogenic Atom
 layout: default
 author: Reagan McNeill Womack
 nav_exclude: false # excludes file from navigation
+nav_order: 14
 ---
 
 # The Radial Wavefunctions of the Hydrogenic Atom
