@@ -57,7 +57,7 @@ The solutions $$Y_{l, m_l}(\theta, \phi)$$ for different values of $$l$$ and $$m
 
 To determine the energies of the solutions, let's first place our solution function, $$Y_{l, m_l}(\theta, \phi)$$ into the Schrodinger equation:
 
-$$\frac{-\hbar^2}{2I}\Lambda^2Y_{l, m_l}(\theta, \phi) = E\Y_{l, m_l}(\theta, \phi)$$
+$$\frac{-\hbar^2}{2I}\Lambda^2Y_{l, m_l}(\theta, \phi) = EY_{l, m_l}(\theta, \phi)$$
 
 From $$\Lambda^2Y_{l, m_l}(\theta, \phi) = -l(l+1)Y_{l, m_l}(\theta, \phi)$$, we can substitute $$\Lambda^2Y_{l, m_l}(\theta, \phi)$$ as follows:
 
