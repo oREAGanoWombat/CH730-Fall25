@@ -8,7 +8,7 @@ nav_order: 12
 # Particle on a Sphere
 
 The next system that will be discussed is a particle on a sphere of constant radius $$r$$, where the particle is free to move anywhere on its surface:
-The wave function$$\psi$$ is with respect to $$\theta$$ and $$\phi$$, defined below:
+The wave function $$\psi$$ is with respect to $$\theta$$ and $$\phi$$, defined below:
 
 <p align="center"><img src="../assets/images/PoS_constantradius.png"></p>
 
