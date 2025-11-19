@@ -3,6 +3,7 @@ title: Orbital Theory & Visualization in Mathematica
 layout: default
 author: Logan Grady
 nav_exclude: false
+nav_order: 13
 ---
 
 # Orbital Theory & Visualization in Mathematica
@@ -65,5 +66,6 @@ $$d_{xy}:\frac{1}{\sqrt{2}}(Y_{2,2}(\theta , \phi)-Y_{2,-2}(\theta , \phi))$$
 So we now have representations for the s, p, and d orbitals using the eigenfunctions of the Particle on a Sphere model, the spherical harmonics. 
 
 ---
+
 
 
