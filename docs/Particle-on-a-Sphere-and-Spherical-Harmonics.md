@@ -43,7 +43,7 @@ $$\psi(\theta, \phi) = \psi(\theta, \phi + 2\pi)$$
 
 These boundary conditions ensure that after one full rotation ($$2\pi$$), the function "meets" at the same place it started, ensuring its continuity.
 
-Thus, because these boundary conditions force spherical symmetry onto the solutions of Schrodinger's equation, the solutions can be determined through the usage of mathematical functions called spherical harmonics, denoted as $$Y_{l, m_l}(\theta, \phi)$$. For a particle confined to the surface of a sphere, these functions will also serva as the complete solution to Schrodinger's equation. $$Y_{l, m_l}(\theta, \phi)$$ satisfies the following equation:
+Thus, because these boundary conditions force spherical symmetry onto the solutions of Schrodinger's equation, the solutions can be determined through the usage of mathematical functions called spherical harmonics, denoted as $$Y_{l, m_l}(\theta, \phi)$$. For a particle confined to the surface of a sphere, these functions will also serve as the complete solution to Schrodinger's equation. $$Y_{l, m_l}(\theta, \phi)$$ satisfies the following equation:
 
 $$\Lambda^2Y_{l, m_l}(\theta, \phi) = -l(l+1)Y_{l, m_l}(\theta, \phi)$$
 
