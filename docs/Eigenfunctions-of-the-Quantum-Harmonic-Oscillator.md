@@ -6,7 +6,7 @@ nav_order: 9
 ---
 
 # Eigenfunction for a Quantum Harmonic Oscillator
-In this section, we will state and discuss the solution of the wave function for the quantum harmonic oscillator. Afterwards, we will use Schrodinger's equation to prove that the solution's associated eigenvalue, $$E$$, is in accordance with the well-known and established energy values of the system, thereby demonstrating that the solution is correct. We will begin by declaring Schrodinger's equation.
+In this section, we will state and discuss the solution of the wave function for the quantum harmonic oscillator. Afterward, we will prove that the solution's eigenvalue $$E$$ is consistent with the well-known and established energy values of the system, thereby proving the solutions' validity. We will begin by declaring Schrodinger's equation.
 
 ### Schrodinger Equation for a Quantum Harmonic Oscillator
 Mentioned previously in the Harmonic Oscillator section [^1], Schrodinger's equation for a quantum harmonic oscillator is $$H\psi + V\psi= E\psi$$, where $$H=$$ $$\frac{-ℏ^2}{2m} ∇^2$$, $$V=$$ $$\frac{1}{2}kx^2$$, and $$\psi$$ is the particle's wave function. Note $$V$$ is the potential energy function of a harmonic oscillator.
@@ -23,10 +23,10 @@ $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$
 
 where $$y = \frac{x}{\alpha}$$, $$\alpha = (\frac{ℏ^2}{mk_f})^\frac{1}{4}$$, and $$N_v$$ is the normalization constant $$N_v =\frac{1}{\alpha\pi^\frac{1}{2}2^vv!}$$
 
-There are several oddities in this solution that set it apart from the previously discussed wave functions, particularly with the presence of $$H_v$$ and $$e^\frac{-y^2}{2}.$$ The exact development of this model will not be discussed, but we can comment on the significance of $$H_v$$ and $$e^\frac{-y^2}{2}$$.
-The term $$e^\frac{-y^2}{2}$$ represents the Gaussian curve, reflecting the probabilistic nature to the solution of the equation. $$H_v$$, known as the Hermite polynomials, has multiple expressions depending on the frequency $$v$$, shown in the table below:
+There are several oddities in this solution that distinguish it from the previously discussed wave functions, specifically with the terms $$H_v$$ and $$e^\frac{-y^2}{2}.$$ The exact development of this model will not be discussed, but we can comment on the significance of these terms.
+The term $$e^\frac{-y^2}{2}$$ represents the Gaussian curve, reflecting the probabilistic nature to the solution of the equation. Whereas $$H_v$$, known as the Hermite polynomials, are a sequence of polynomials with its expression depending on frequency $$v$$, shown in the table below:
 
-<p align="center"><img src="../assets/images/Hermite%20polynomials.jpg"></p>
+<p align="center"><img src="../assets/images/hermitepoly.png"></p>
 
 The order of $$H_v$$ is equal to $$v$$. The image below displays the solutions to $$\psi_v(y) = N_vH_v(y)e^\frac{-y^2}{2}$$ with discretely increasing $$v$$.
 
