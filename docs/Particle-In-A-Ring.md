@@ -6,15 +6,12 @@ nav_order: 10
 ---
 
 # Particle in a Ring
-## Hamiltonian
-### Coordinate System
-#### Quantization
 
-Assume a system where a particle lives on a ring of radius, \(r\), where there is zero potential because for all coordinates, 
+There is a potential of zero where a particle lies on a ring of radius, \(r\), therefore, 
 
-$$H = - \frac{\hbar^{2}}{2m} \frac{d^{2}}{dx^{2}}$$  
+$$H = - \frac{\hbar^{2}}{2m} \frac{d^{2}}{dx^{2}}$$ for all coordinates. 
 
-Therefore, the Hamiltonian of the particle of the ring would be as follows, where the coordinate system is not represented in terms of $$r$$ and $$\phi$$:  
+Accordingly, the Hamiltonian of the particle of the ring would be as follows, where the coordinate system is now represented in terms of $$r$$ and $$\phi$$:  
 
 $$H = - \frac{\hbar^{2}}{2m} \left(\frac{d^{2}}{dx^{2}} + \frac{d^{2}}{dy^{2}}\right)$$  
 
