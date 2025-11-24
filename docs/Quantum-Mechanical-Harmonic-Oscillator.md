@@ -13,9 +13,9 @@ The Harmonic Oscillator is the second quantum model we will see which can be sol
 
 To make the quantum mechanical model, we need to solve the Schrödinger Equation. Recall the full form of the Schrödinger Equation:
 
-$$\frac{-\hbar^{2}}{2m}\nabla^{2} \Psi (x) + V(x) \Psi (x) = E \Psi (x)$$
+$$\frac{-\hbar^{2}}{2m}\nabla^{2} \psi (x) + V(x) \psi (x) = E \psi (x)$$
 
-We have already sovled for the potential energy, so now we need to determine what our wavefunctions are. Utilizing the power series method for solving differential equations and the postulates of quantum mechanics, the eigenfunctions of this hamiltonian (wavefunctions) are given by:
+We have already sovled for the potential energy, so now we need to determine what our wavefunctions are. Utilizing the power series method for solving differential equations and the postulates of quantum mechanics, the eigenfunctions of this hamiltonian (wavefunctions) can be derived as:
 
 $$\psi_{v}(x)=N_{v}H{v}(y)e^{\frac{-y^{2}}{2}}$$
 
@@ -23,15 +23,19 @@ Where $$v$$ is a new quantum number that can be any whole number (ie. 0,1,2,3,..
 
 Visualizing the first few Harmonic Oscillator Wavefunctions:
 <p align="center"><img src="../assets/images/Harmonic-Oscillator-Energy-Levels.jpg"></p>
+In this visualization, it can be seen that the wavefunctions alternate between symetric and antisymmetric.
 
 Now visulaizing the probability density of the wavefunctions by taking the square modulus:
+
+$$| \psi |^{2}$$:
+
 <p align="center"><img src="../assets/images/HO-Prob-Density.jpg"></p>
 
-Here we can see that the probability of finding the particle extends beyond the bounds of our potential, unlike in the Particle in a Box. This is because the probability is not infinite, but depends on the height inside of the potential well. This is elucidated by noting that probability densities of lower values of $$v$$ extend further past the potential than those with higher values of $$v$$.
+Here we can see that the probability of finding the particle extends beyond the bounds of our potential, unlike in the Particle in a Box. This is because the potential energy is not infinite, but depends on the height of the potential well. This is elucidated by noting that probability densities of lower values of $$v$$ extend further past the potential than those with higher values of $$v$$.
 
 ## Harmonic Oscillator Energy Levels
 
-The quantized energy is given by:
+The quantized energies (eigenfunctions of the harmonic oscillator) are given by:
 
 $$\begin{align}
 E_{v}&=h \nu (v + \frac{1}{2}) \\
