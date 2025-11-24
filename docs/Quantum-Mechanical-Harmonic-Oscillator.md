@@ -27,7 +27,7 @@ In this visualization, it can be seen that the wavefunctions alternate between s
 
 Now visulaizing the probability density of the wavefunctions by taking the square modulus:
 
-$$| \psi |^{2}$$:
+$$\lvert \psi \rvert ^{2}$$:
 
 <p align="center"><img src="../assets/images/HO-Prob-Density.jpg"></p>
 
