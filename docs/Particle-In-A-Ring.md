@@ -22,22 +22,14 @@ $$= - \frac{\hbar^{2}}{2I} \frac{d^{2}}{d\phi^{2}}$$
 where \(I =\) moment of inertia.  
 
 ---
-![Wavefunction representation](../assets/wavefunction.png)
+![Particle On A Ring](../assets/ParticleOnARing.png)
 The blue squiggle line is a representation of the wavefunction.  
 
-$$H \Psi = E \Psi$$  
-
-$$e^{i m_{l} \phi}$$  
-
-Use Euler’s function to rewrite as:  
-
-$$e^{i m_{l} \phi} = \cos(m_{l} \phi) + i \sin(m_{l} \phi)$$  
-
 ---
-![Cosine and sine phase shift](../assets/phase_shift.png)
-This shows that the wave oscillates with a phase shift of \(90^{\circ}\), represented as real and imaginary. Both waves oscillate with the same frequency but it looks like cos precedes sin by \(\pi/2\).  
 
-Show that \(e^{i m_{l} \phi} = \cos(m_{l} \phi) + i \sin(m_{l} \phi)\) is an eigenfunction of the Hamiltonian.  
+Show that \(e^{i m_{l} \phi} = \cos(m_{l} \phi) + i \sin(m_{l} \phi)\) is an eigenfunction of the Hamiltonian. 
+
+$$H \Psi = E \Psi$$ 
 
 $$H \Psi = - \frac{\hbar^{2}}{2I} \frac{d^{2}}{d\phi^{2}} \left(e^{i m_{l} \phi}\right)$$  
 
@@ -48,6 +40,8 @@ $$H \Psi = - \frac{\hbar^{2}}{2I} \left(- m_{l}^{2} e^{i m_{l} \phi}\right)$$
 $$H \Psi = \frac{\hbar^{2} m_{l}^{2}}{2I} e^{i m_{l} \phi}$$  
 
 $$= \frac{\hbar^{2} m_{l}^{2}}{2I} \Psi$$  
+
+![Particle On A Ring](../assets/ParticleOnARing.png)
 
 Where  $$E = \frac{\hbar^{2} m_{l}^{2}}{2I}$$ for a particle in a ring. At this time, there is no quantization because there are no restrictions or boundaries. A restriction must be set to achieve quantization: the wave must meet smoothly and continuously, or the wavefunction must start and end in the same place as seen in the wavefunction figure above. Therefore for a ring where the phase \(\phi\) ranges from \(0\) to \(2\pi\), a wavefunction at a given angle \(\phi\) must be equal to the wavefunction at \(\phi + 2\pi\).  
 
