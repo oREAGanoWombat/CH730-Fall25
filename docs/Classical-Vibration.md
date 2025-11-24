@@ -25,13 +25,13 @@ $$x(t)=A\sin{(2\pi\nu t)}=A\sin{(\sqrt{\frac{k_{f}}{m}}t)} = x(t)=A\sin{(\omega 
 
 >$$\nu$$ is the frequency of the vibration in terms of cycles per time while $$\omega$$ is the amount of radians travelled per time.
 
-To prove that this equation accurately describes the ball's position, we can plug it in to our spring equation for force and solve like so:
+To prove that this equation accurately describes the ball's position, we can insert it into the force euquation and solve for $$x(t)$$ like so:
 
-$$F=ma=m\frac{d^{2}}{dt^{2}}(A\sin{(\sqrt{\frac{k_{f}}{m}}t)})=\sqrt{\frac{k_{f}}{m}}m\frac{d}{dt}A\cos{(\sqrt{\frac{k_{f}}{m}}t)}=-{k_{f}}A\sin{\sqrt{\frac{k_{f}}{m}}t)}=-{k_{f}}x(t)$$
+$$F=ma=m\frac{d^{2}}{dt^{2}}(A\sin{(\sqrt{\frac{k_{f}}{m}}t)})=\sqrt{\frac{k_{f}}{m}}m\frac{d}{dt}A\cos{(\sqrt{\frac{k_{f}}{m}}t)}=-{k_{f}}A\sin{(\sqrt{\frac{k_{f}}{m}}t)}=-{k_{f}}x(t)$$
 
-You can see the result is consistent with our equation from before ($$F=ma=-k_{f}x$$) verifying our chosen function $$x(t)$$. 
+You can see the result is consistent with our force equation from before ($$F=ma=-k_{f}x$$) verifying our chosen function $$x(t)$$. 
 
-## Potential derivation
+## Derivation of the Ball's Potential
 To find the ball's potential in relation to its position, we begin with the following expression:
 
 $$E=\int^{x}_{0}Fdx$$
