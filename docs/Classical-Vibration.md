@@ -14,9 +14,11 @@ The force applied on the ball by the spring can be described by the equation $$F
 
 $$k_{f}$$ is the force constant of the spring which is dependant on the spring itself and $$x$$ describes the position of the ball in relation to the spring's equilibrium point $$(x=0)$$. This intuitively makes sense. As you pull the ball in the $$+x$$ direction away from the wall, the spring resists pulling it back in the $$-x$$ direction and vise versa. 
 
-The force can also be described using Newton's second law of motion as $$F=ma$$. Acceleration (a) can also be described as the derivative of velocity $$(V)$$ or the double derivative of position $$(x)$$ with respect to time. When combined with the spring equation, we get the following equation:
+The force can also be described using Newton's second law of motion as $$F=ma$$. Acceleration $$(a)$$ can also be described as the derivative of velocity $$(V)$$ or the double derivative of position $$(x)$$ with respect to time. When combined with the spring equation, we get the following equation:
 
 $$-k_{f}x=ma=m\frac{dV}{dt}=m\frac{d^{2}x}{dt^{2}}$$
+
+
 
 All of the aforementioned equations describe the force applied on the mass by the spring but not the position of the mass as a function of time. The equation for that is as follows:
 
@@ -30,6 +32,8 @@ To prove that this equation accurately describes the ball's position, we can ins
 $$F=ma=m\frac{d^{2}}{dt^{2}}(A\sin{(\sqrt{\frac{k_{f}}{m}}t)})=\sqrt{\frac{k_{f}}{m}}m\frac{d}{dt}A\cos{(\sqrt{\frac{k_{f}}{m}}t)}=-{k_{f}}A\sin{(\sqrt{\frac{k_{f}}{m}}t)}=-{k_{f}}x(t)$$
 
 You can see the result is consistent with our force equation from before ($$F=ma=-k_{f}x$$) verifying our chosen function $$x(t)$$. 
+
+---
 
 ## Derivation of the Ball's Potential
 To find the ball's potential in relation to its position, we begin with the following expression:
